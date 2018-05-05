@@ -1,0 +1,48 @@
+title: Teams Shortcodes
+type: button
+
+shortcodeName: get_teams
+popupOptions:
+	type:
+		label: Insert
+		type: type-select
+		class: all
+		default: {
+			posts: {
+				label: Latest teams
+				checked: true
+				shortcodeName: get_teams
+			},
+			post: {
+				label: One specific team
+				shortcodeName: get_team
+			},
+			postsCategory: {
+				label: Team by category
+				shortcodeName: get_teams_category
+			}
+		}
+
+	category:
+		label: Category ID
+		type: select-category
+		category: team
+		class: get_teams_category
+	number:
+		label: Number of Posts
+		type: text
+		default: 3
+		class: all
+	id:
+		label: Post ID
+		type: text
+		default: ''
+		class: get_team
+	icons:
+		label: Display icons
+		type: checkbox
+		class: all
+		default:
+			enable:
+				label: 'Yes'
+				checked: true

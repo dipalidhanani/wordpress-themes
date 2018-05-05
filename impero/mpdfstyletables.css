@@ -1,0 +1,122 @@
+.body{
+	margin:0px;
+	padding:0px;
+	font-size:16px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#000;
+    }
+
+h2 { font-size: 18px; }
+html, body, h2, h3, p, h4, h5 { margin:0; padding:0;}
+
+.main{
+	width: 800px;
+	overflow: hidden;
+	margin: auto;
+	padding:20px 0;
+   }
+	
+.name{
+	margin-left: 20px;
+
+	}
+		
+.cr { clear:both}
+
+.company-info { padding: 5px 20px;}
+	
+
+.mail{
+	margin-left: 30px;
+	margin-top: 23px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+	
+.title { background: #b4b4b4; padding: 7px 20px;}
+
+.title h2 {}
+
+.title1{
+	text-align:center;
+	margin-bottom:5px;}
+
+
+.title2{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+
+.fr { float:right; margin-right: 30px;}
+
+.fl { float:left;}
+
+
+h3 { font-size: 16px;}
+
+.name h3 {}
+
+h4{ font-size: 20px;}
+
+h5 { font-size: 16px; font-weight:normal;}
+
+.box1{
+	width: 700px;
+	background-image:url(line.jpg);
+	border:1px solid #999;
+	margin-top:20px;
+	padding-bottom:10px;
+	
+	}
+
+	
+	
+.leftbar{
+	width: 130px;
+	padding-left: 10px;
+	overflow:hidden;
+	float: left;
+    }
+	
+	
+
+.rightbar{
+	width: 650px;
+	overflow:hidden;
+	float: right;
+    }
+
+.m-top-20 { margin-top: 20px;}
+	
+.m-top-30 { margin-top: 30px;}
+
+.m-top-50 { margin-top: 50px;}
+
+.m-top-70 { margin-top: 70px;}
+
+.m-top-35 { margin-top: 35px;}
+
+.m-top-170 { margin-top: 170px;}
+
+.m-top-15 { margin-top: 15px;}
+
+.m-top-75 { margin-top: 75px;}
+
+.m-top-75 { margin-top: 75px;}
+
+.m-top-290 { float:right; margin-right:290px;}
+
+.m-top-220 { float:right; margin-right:220px;}	
+
+.m-top-230 { float:right; margin-right:230px;}
+
+.m-top-180 { float:right; margin-right:180px;}
+
+.line{
+	width: 2px;
+	height: 640px;
+	float: left;
+	background-color: #000;
+    }

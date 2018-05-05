@@ -1,0 +1,16 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">ait-service-box</custom-type>
+        <custom-type translate="1">ait-testimonial</custom-type>
+        <custom-type translate="1">ait-gridgallery</custom-type>
+        <custom-type translate="1">ait-team</custom-type>
+        <custom-type translate="1">ait-faq</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">ait-service-box-category</taxonomy>
+        <taxonomy translate="1">ait-testimonial-category</taxonomy>
+        <taxonomy translate="1">ait-gridgallery-category</taxonomy>
+        <taxonomy translate="1">ait-team-category</taxonomy>
+        <taxonomy translate="1">ait-faq-category</taxonomy>
+    </taxonomies>
+</wpml-config>

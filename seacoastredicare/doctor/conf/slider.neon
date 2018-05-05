@@ -1,0 +1,27 @@
+overrideGlobal:
+	label: Use these settings
+	type: checkbox
+	default:
+		'yes':
+			label: 'Yes'
+sliderEnable:
+	label: Show
+	type: radio
+	default:
+		true:
+			label: 'Yes'
+			checked: true
+		false:
+			label: 'No'
+sliderAliases:
+	label: Revolution slider
+	type: dropdown-slider-aliases
+	default: subSlider
+sliderAlternative:
+	label: Slider alternative
+	type: image-url
+	default: ''
+sliderBgImg:
+	label: "Slider Background Image"
+	type: image-url
+	default: 'http://testing.ait-themes.com/rounder/wp1/wp-content/themes/rounder/design/img/subpage-slider-bg.png'

@@ -1,0 +1,8 @@
+*** Fedex Shipping Method Changelog ***
+
+2013.04.25 - version 1.0.2
+  * Added a way to change shipping methods name
+  * Added update from Wordpress
+
+2013.04.13 - version 1.0.0
+  * First Release

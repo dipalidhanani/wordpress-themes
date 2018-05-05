@@ -1,0 +1,34 @@
+overrideGlobal:
+	label: Use these settings
+	type: checkbox
+	default:
+		'yes':
+			label: 'Yes'
+serviceBoxesDisplay:
+	label: Show
+	type: radio
+	default: {
+		true: {
+			label: 'Yes'
+			checked: true
+		},
+		false: {
+			label: 'No'
+		}
+	}
+serviceBoxesCategory:
+	label: Service Boxes Category
+	type: dropdown-categories
+	default: 'service-box'
+serviceBoxesInRow:
+	label: Service Boxes In Row
+	type: select
+	default: {
+		4: {
+			label: 4
+			checked: true
+		},
+		3: {
+			label: 3
+		}
+	}

@@ -1,0 +1,818 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 1400px) {
+	/*body{
+		border:1px solid black;
+	}*/
+	.login-header .logo{
+		width:360px;
+	}
+	.login-header{
+		padding:20px 0;
+	}
+	.login-section{
+		padding:180px 0 230px;
+	}
+}
+@media screen and (max-width: 1250px) {
+	/*body{
+		border:1px solid blue;
+	}*/
+	.wrapper{
+		margin:0 2%;
+		width:auto;
+	}
+	.inner-body-wrap{
+		background-position:73% 0;
+	}
+	.inner-right{
+		width:280px;
+	}
+	.inner-left{
+		width:70%;
+	}
+	.content .payment-method ul li{
+		margin:0 30px 0 0;
+	}
+	.content ul.lession-pic li{
+		width:48%;
+	}
+	
+}
+@media screen and (max-width: 1200px) {
+	/*body{
+		border:1px solid pink;
+	}*/
+	.inner-body-wrap{
+		background-position:72% 0;
+	}
+	.inner-left{
+		width:69%;
+	}
+	.content ul.lession-pic li {
+    width: 47.4%;
+}
+.course-detail-progress .progress-status {
+    width: 93%;
+}
+}
+@media screen and (max-width: 1150px) {
+	/*body{
+		border:1px solid green;
+	}*/
+	.inner-body-wrap{
+		background-position:71% 0;
+	}
+	.inner-left{
+		width:68%;
+	}
+	.course-detail-progress .progress-status {
+    width: 92%;
+}
+}
+@media screen and (max-width: 1100px) {
+	/*body{
+		border:1px solid orange;
+	}*/
+	.inner-body-wrap{
+		background-position:69% 0;
+	}
+	.inner-left{
+		width:66.5%;
+	}
+	.content .payment-method ul li{
+		margin:0 20px 0 0;
+	}
+	.course-detail-progress .progress-status {
+    	width: 92%;
+	}
+}
+@media screen and (max-width: 1024px) {
+	/*body{
+		border:1px solid purple;
+	}*/
+	.login-section{
+		padding:120px 0 130px;
+	}
+	.inner-body-wrap{
+		background-position:68.5% 0;
+	}
+	.inner-left{
+		width:66%;
+	}
+	.content{
+		padding:50px 0;
+	}
+	.content h2{
+		font-size:30px;
+		line-height:34px;
+		margin:0 0 15px;
+	}
+	.content h3{
+		font-size:22px;
+		line-height:26px;
+		margin:0 0 12px;
+	}
+	.content h4{
+		font-size:18px;
+		line-height:24px;
+		margin:0 0 10px;
+	}
+	.header .logo, .footer .logo{
+		width:270px;
+	}
+	.navigation{
+		padding:13px 0 0;
+	}
+	.header{
+		padding:16px 0;
+	}
+	.footer-link{
+		padding:18px 0 0;
+	}
+	.contact-form input[type="submit"], .leave-reply input[type="submit"]{
+		font-size:18px;
+		height:46px;
+		padding:0 25px;
+	}
+	.contact-form input[type="text"], .leave-reply input[type="text"], .contact-form input[type="password"]{
+		height:45px;
+	}
+	.contact-form label, .leave-reply label{
+		font-size:16px;
+		margin:0 0 8px;
+	}
+	.thankyou h1{
+		font-size:50px;
+		line-height:54px;
+		padding:80px 0 0;
+		background-size:70px;
+		margin:0 0 15px;
+	}
+	.thankyou p{
+		font-size:18px;
+		line-height:26px;
+	}
+	.thankyou p span{
+		font-size:21px;
+		padding:0 0 5px;
+	}
+	.thankyou{
+		padding:150px 0 170px;
+	}
+	.payment-method{
+		padding:18px 0 25px;
+	}
+	.contact-form input.register-btn[type="submit"]{
+		margin:25px 0 0;
+	}
+	.course-detail-progress .progress-status {
+    width: 92%;
+}
+}
+@media screen and (max-width: 1000px) {
+	/*body{
+		border:1px solid grey;
+	}*/
+	.inner-left{
+		width:auto;
+		float:none;
+		overflow:hidden;
+	}
+	.inner-right{
+		width:auto;
+		float:none;
+		overflow:hidden;
+		padding:35px 0 0;
+	}
+	.inner-body-wrap{
+		background:none;
+	}
+	.content ul.glossery-alphabet{
+		text-align:center;
+		padding:15px 0 0;
+	}
+	.content ul.glossery-alphabet li{
+		display:inline-block;
+		vertical-align:top;
+		margin:0 12px 0 0;
+		line-height:28px;
+	}
+	.content ul.glossery-alphabet li:last-child{
+		margin:0;
+	}
+	.content .payment-method ul li{
+		float:none;
+		margin:0 0 8px;
+	}
+	.content .payment-method ul li:last-child{
+		margin:0;
+	}
+	.payment-method{
+		padding:18px 0 22px;
+	}
+	.contact-form label.checkbox{
+		margin:15px 0 10px;
+	}
+	.course-listing .progress-status {
+
+    width: 86%;
+}
+
+.course-listing .progress-status {
+    width: 94%;
+}
+	
+}
+@media screen and (max-width: 950px) {
+	/*body{
+		border:1px solid brown;
+	}*/
+	.progress-bar {
+		float: none;
+		width: 95%;
+		margin: 20px 0 30px 10px;
+	}
+	.content .progress-section p {
+    float: none;
+    width: 90%;
+	margin:0 0 10px 0;
+}
+}
+@media screen and (max-width: 900px) {
+	/*body{
+		border:1px solid black;
+	}*/
+	.nav li a{
+		padding:0 12px;
+	}
+	.nav li{
+		margin:0 8px 0 0;
+	}
+	.nav li a.dashboard{
+		padding:0 4px;
+	}
+}
+@media screen and (max-width: 850px) {
+	/*body{
+		border:1px solid red;
+	}*/
+}
+@media screen and (max-width: 800px) {
+	/*body{
+		border:1px solid yellow;
+	}*/
+	.course-detail-progress .progress-status {
+    	width: 92%;
+	}
+}
+@media screen and (max-width: 768px) {
+	/*body{
+		border:1px solid blue;
+	}*/
+	.login-footer p{
+		float:none !important;
+		text-align:center;
+	}
+	.login-footer p.copytext{
+		margin:0 0 5px;
+	}
+	.login-section{
+		padding:200px 0 260px;
+	}
+	.header .logo, .footer .logo{
+		width:230px;
+	}
+	.header{
+		padding:12px 0 15px;
+	}
+	.responsive{
+		display:block;
+	}
+	.navigation{
+		position:static;
+	}
+	.nav{
+		display:none;
+		overflow:hidden;
+		opacity:0;
+		min-height:0;
+		-webkit-transition: none;
+		-moz-transition: none;
+		-ms-transition: none;
+		transition: none;
+		-webkit-transform-style: preserve-3d;
+		position:absolute;
+		top:79px;
+		left:0;
+		right:0;
+		border-bottom:3px solid #252525;
+		background-color:#FFF;
+	}
+	.flexnav-show{
+		max-height: 2000px;
+		overflow:visible !important;
+        opacity: 1 !important ;
+		-webkit-transition: all .5s ease-in-out;
+		-moz-transition: all .5s ease-in-out;
+		-ms-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+		display:block !important;
+		z-index:100000;
+	}
+	.nav li{
+		float:none;
+		margin:0;
+		text-align:center;
+	}
+	.nav li a{
+		padding:8px 10px !important;
+	}
+	.content{
+		padding:40px 0;
+	}
+	.content h2{
+		font-size:26px;
+		line-height:30px;
+		margin:0 0 15px;
+	}
+	.content p{
+		font-size:15px;
+		line-height:24px;
+		margin:0 0 15px;
+	}
+	.content ul.glosser-list li{
+		margin:0 0 20px;
+		padding:0 0 5px;
+	}
+	.contact-left{
+		width:48.5%;
+	}
+	.contact-form{
+		padding:5px 0 0;
+	}
+	.contact-left{
+		width:auto;
+		float:none;
+		overflow:hidden;
+	}
+	.contact-right{
+		margin:16px 0 0 ;
+	}
+	/*.thankyou{
+		padding:240px 0 335px;
+	}*/
+	.back-btn {
+    background-color: #0076c0;
+    color: #fff;
+    display: inline-block;
+    float: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 34px;
+    margin: 0 0 10px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out 0s;
+}
+.course-listing .progress-status {
+    width: 91%;
+}
+
+.checkout-form .contact-left {
+    width: auto;
+}
+}
+@media screen and (max-width: 700px) {
+	/*body{
+		border:1px solid pink;
+	}*/
+	.login-header .logo{
+		width:280px;
+	}
+	.login-form h2{
+		font-size:30px;
+		line-height:36px;
+		margin:0 0 25px;
+	}
+	.login-form input[type="text"], .login-form input[type="password"]{
+		height:50px;
+		font-size:16px;
+	}
+	.login-field{
+		margin:0 0 20px;
+	}
+	.login-form button{
+		height:54px;
+		line-height:54px;
+		font-size:18px;
+		margin:0 0 20px;
+	}
+	.login-form button span{
+		background-position:0 16px;
+		padding:0 0 0 25px;
+	}
+	.login-section{
+		padding:130px 0 150px;
+	}
+	.thankyou{
+		padding:130px 0 150px;
+	}
+	.content .course-module-head h4 {
+    font-size: 24px;
+    line-height: 37px;
+    float: left;
+    width: 62%;
+    color: #1d8e44;
+    margin: 0;
+}
+}
+@media screen and (max-width: 650px) {
+	/*body{
+		border:1px solid green;
+	}*/
+	.login-form{
+		width:auto;
+		margin:0 2%;
+	}
+	.content ul.lession-pic li{
+		float:none;
+		width:auto;
+		margin:0 0 20px 0;
+	}
+	.course-detail-progress .progress-status {
+    width: 91%;
+}
+
+.account-tabcont {
+    background-color: #f9f9f9;
+    border: 1px solid #d9d9d9;
+    border-radius: 0 5px 5px;
+    display: none;
+    overflow: hidden;
+    padding: 30px 15px 24px;
+}
+
+}
+@media screen and (max-width: 600px) {
+	/*body{
+		border:1px solid orange;
+	}*/
+	.course-detail-progress .progress-status {
+    width: 91%;
+}
+.cart-table table tr td:before{
+	display:inline-block;
+}
+
+.cart-table tr:first-child {
+    display: none;
+}
+
+.cart-table table tr td{
+	width:100% !important;
+	display:block;
+}
+.cart-table table .subtotal td.col2{
+	display:none;
+}
+.cart-table table .subtotal td.col3{
+	display:none;
+}
+.cart-table table .total td.col2{
+	display:none;
+}
+.cart-table table .total td.col3{
+	display:none;
+}
+
+.billing-table tr td::before{
+	display:inline-block;
+}
+.billing-table tr:first-child{
+	display: none;
+}
+
+.billing-table tr td{
+	width:auto !important;
+	display:block;
+	border: 1px solid #e5e5e5;
+	padding:0;
+	
+}
+.billing-table tr td.empty:before{
+	display:none;
+}
+
+.billing-table tr td {
+    line-height: 60px;
+    padding: 0 0 0 180px;
+}
+
+.billing-table tr td .view-order {
+    background: rgba(0, 0, 0, 0) url("../images/view_ar.png") no-repeat scroll right center;
+    color: #0076c0;
+    display: inline-block;
+    float: right;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 58px;
+    padding: 0 19px 0 0;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+tr.total .order-col2 {
+    padding-top: 0;
+}
+
+}
+@media screen and (max-width: 550px) {
+	/*body{
+		border:1px solid purple;
+	}*/
+	.course-detail-progress .progress-status {
+    width: 89%;
+}
+.content .course-module-head h4 {
+
+    width: 62%;
+
+}
+
+.course-listing .progress-status {
+    width: 89.5%;
+}
+
+}
+@media screen and (max-width: 480px) {
+	/*body{
+		border:1px solid grey;
+	}*/
+	.course-detail-progress .progress-status {
+    width: 88%;
+}
+.content .course-module-head h4 {
+    font-size: 20px;
+    line-height: 25px;
+    float: left;
+    width: auto;
+    color: #1d8e44;
+    margin: 0 0 13px 0;
+}
+.content .course-module-head .btn{
+	float:none;
+}
+.progress-complete{
+	float:none;
+}
+.content ul.course-listing li ul.length {
+    margin: 0 0 20px;
+    padding: 0;
+    float: none;
+}
+.billing-table tr td::before {
+
+    width: 90px;
+}
+
+.billing-table tr td {
+    line-height: 60px;
+    padding: 0 0 0 152px;
+}
+.content ul.credit-card-types li {
+    margin: 0 15px 0 0;
+}
+.content ul.credit-card-types li img {
+    width: 100%;
+}
+}
+@media screen and (max-width: px) {
+	/*body{
+		border:1px solid brown;
+	}*/
+	.login-form h2 {
+		font-size: 26px;
+		line-height: 30px;
+		margin: 0 0 20px;
+	}
+	.header .logo, .footer .logo{
+		width:190px;
+	}
+	.navigation{
+		padding:9px 0 0;
+	}
+	.nav{
+		top:69px;
+	}
+	.footer .logo{
+		float:none;
+		margin:0 auto;
+	}
+	.footer-link{
+		float:none;
+		text-align:center;
+		display:block;
+		padding:10px 0 0;
+		font-size:16px;
+	}
+	.content{
+		padding:32px 0;
+	}
+	.contact-form input[type="submit"], .leave-reply input[type="submit"] {
+		font-size: 16px;
+		height: 42px;
+		padding: 0 20px;
+	}
+	.thankyou{
+		padding:130px 0 150px;
+	}
+	.thankyou h1 {
+		font-size: 35px;
+		line-height: 40px;
+		padding: 70px 0 0;
+		background-size: 60px;
+	}
+	/*.login-form .button {
+    background: #e62229 url("../images/login_icon.png") no-repeat scroll 35% 20px;
+	}*/
+	.course-detail-progress .progress-status {
+    width: 86%;
+}
+
+
+.course-listing .progress-status {
+    width: 86%;
+}
+
+.content ul.credit-card-types li {
+
+    width: 19%;
+}
+.content ul.credit-card-types li img{
+	width:100%;
+}
+
+.billing-table tr td::before{
+	padding: 12px 17px;
+}
+.account-tabcont {
+
+    padding: 30px 7px 24px;
+}
+.content ul.account-tabmenu li{
+	float:none;
+}
+
+}
+@media screen and (max-width: 400px) {
+	/*body{
+		border:1px solid black;
+	}*/
+	.login-section{
+		padding:100px 0 120px;
+	}
+	.thankyou{
+		padding:110px 0 120px;
+	}
+	/*.login-form .button {
+    background: #e62229 url("../images/login_icon.png") no-repeat scroll 30% 20px;
+	}*/
+	.course-detail-progress .progress-status {
+    width: 84%;
+}
+
+.content ul.credit-card-types li {
+    width: 17.5%;
+}
+
+.billing-table tr td::before {
+    padding: 12px 7px;
+}
+
+.billing-table tr td::before{
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+	.billing-table tr td{
+		font-size:14px;
+	}
+
+	
+	.account-tabcont {
+
+    padding: 30px 10px 24px;
+}
+
+.billing-table tr td .view-order{
+	float:none;
+	display:block;
+	margin:0 0 20px 0;
+	background: rgba(0, 0, 0, 0) url("../images/view_ar.png") no-repeat scroll 57% center;
+}
+.billing-table tr td .view-order:hover {
+    background: rgba(0, 0, 0, 0) url("../images/view_ar_h.png") no-repeat scroll 57% center;
+    color: #1d8e44;
+}
+
+.billing-table tr td {
+    line-height: 60px;
+    padding: 0 0 0 115px;
+}
+
+.billing-table tr td::before {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+
+.billing-table tr td::before {
+    margin: 0 14px 0 0;
+}
+
+.billing-table tr td .view-order {
+    font-size: 15px;
+    line-height: 15px;
+
+}
+.header .logo, .footer .logo {
+    float: none;
+    margin: 0 auto;
+}
+.footer-link{
+	float:none;
+	display:block;
+	text-align:center;	
+}
+
+
+}
+@media screen and (max-width: 350px) {
+	/*body{
+		border:1px solid red;
+	}*/
+	.login-section{
+		padding:80px 0 90px;
+	}
+	.thankyou{
+		padding:80px 0 90px;
+	}
+	.thankyou p span{
+		font-size:20px;
+	}
+	.course-detail-progress .progress-status {
+    width: 80%;
+}
+
+.course-listing .progress-status {
+    width: 81%;
+}
+
+.content ul.credit-card-types li {
+    width: 20%;
+}
+.cart-table table tr td::before {
+    display: block;
+}
+
+.billing-table tr td::before {
+    width: 68px;
+	margin: 0 10px 0 0;
+}
+
+.billing-table tr td {
+    line-height: 60px;
+    padding: 0 0 0 95px;
+}
+
+.billing-table tr td .view-order {
+    background: rgba(0, 0, 0, 0) url("../images/view_ar.png") no-repeat scroll 70% center;
+    display: block;
+    float: none;
+    margin: 0 0 20px;
+}
+.billing-table tr td {
+    line-height: 55px;
+    padding: 0 0 0 95px;
+}
+.billing-table tr td .view-order {
+
+    font-size: 15px;
+
+    line-height: 15px;
+
+}
+
+}
+@media screen and (max-width: 300px) {
+	/*body{
+		border:1px solid yellow;
+	}*/
+	
+.course-detail-progress .progress-status {
+    width: 77%;
+}
+}

@@ -1,0 +1,554 @@
+generalOptions:
+	title: General Settings
+	menu-title: General Settings
+	tabs:
+		general:
+			title:     General Settings
+			tab-title: General
+			options:
+				Header: section
+				#################
+				logo_img:
+					label: Logo image
+					type: image-url
+					default: 'design/img/logo.png'
+					skinable: false
+				tagline:
+					label: Tagline
+					type: text
+					default: 'Some Lorem Ipsum'
+				Main Menu: section
+				#################
+				mainmenu_dropdown_time:
+					label: "Dropdown Animation Time (ms)"
+					type: text
+					default: 0.4
+				mainmenu_dropdown_animation:
+					label: "Dropdown Animation Easing"
+					type: select
+					default: {
+						linear: {
+							label: linear
+						},
+						ease: {
+							label: ease
+						},
+						ease-in: {
+							label: ease-in
+						},
+						ease-out: {
+							label: ease-out
+						},
+						ease-in-out: {
+							label: ease-in-out
+							checked: true
+						}
+					}
+				Footer: section
+				#################
+				footer_text:
+					label: Footer text
+					type: wysiwyg
+					default: '© 2012 Copyright by <a href="http://ait-themes.com">AIT</a>. All rights reserved. Lorem ipsum dolor sit amet consecteur...'
+					help: 'This text will be displayed in the footer of page'
+				Google Codes: section
+				#################
+				ga_code:
+					label: Google Analytics Tracking Code
+					type: text
+		sections:
+			title: Sections
+			tab-title: Sections
+			options:
+				Global sections order: section
+				#######################
+				sectionsOrder:
+					type: order
+					meta: '_ait_sections_order'
+					default:
+						sectionA: Section A - Testimonials
+						sectionB: Section B - Service boxes
+						sectionC: Section C - Content
+				Slider - Global Settings : section
+				#################
+				sliderEnable:
+					label: Show
+					type: radio
+					default:
+						true:
+							label: 'Yes'
+							checked: true
+						false:
+							label: 'No'
+				sliderAliases:
+					label: Revolution slider
+					type: dropdown-slider-aliases
+				sliderAlternative:
+					label: Slider alternative
+					type: image-url
+					default: ''
+				sliderBgImg:
+					label: "Slider Background Image"
+					type: image-url
+					default: ''
+				Service boxes - Global Settings : section
+				#################
+				serviceBoxesDisplay:
+					label: Show
+					type: radio
+					default: {
+						true: {
+							label: 'Yes'
+							checked: true
+						},
+						false: {
+							label: 'No'
+						}
+					}
+				serviceBoxesCategory:
+					label: Service Boxes Category
+					type: dropdown-categories
+					default: 'service-box'
+				serviceBoxesInRow:
+					label: Service Boxes In Row
+					type: select
+					default: {
+						4: {
+							label: 4
+							checked: true
+						},
+						3: {
+							label: 3
+						}
+					}
+				Testimonials - Global Settings : section
+				#################
+				testimonialsDisplay:
+					label: Show
+					type: radio
+					default: {
+						true: {
+							label: 'Yes'
+							checked: true
+						},
+						false: {
+							label: 'No'
+						}
+					}
+				testimonialsCategory:
+					label: Testimonials Category
+					type: dropdown-categories
+					default: 'testimonial'
+				testimonialsBackground:
+					label: Testimonials Background
+					type: colorpicker
+					default: '#FFFFFF'
+		footer:
+			title:     Footer Widgets
+			tab-title: Footer Widgets
+			less: true
+			options:
+				Footer - Widgets : section
+				#################
+				widthFirst:
+					label: "First Widget Width"
+					type: text
+					skinable: true
+					default: 412px
+				widthSecond:
+					label: "Second Widget Width"
+					type: text
+					skinable: true
+					default: 152px
+				widthThird:
+					label: "Third Widget Width"
+					type: text
+					skinable: true
+					default: 152px
+				widthFourth:
+					label: "Fourth Widget Width"
+					type: text
+					skinable: true
+					default: 152px
+				widthFifth:
+					label: "Fifth Widget Width"
+					type: text
+					skinable: true
+					default: 202px
+				widthSixth:
+					label: "Sixth Widget Width"
+					type: text
+					skinable: true
+					default: 202px
+		socialIcons:
+			title: Social icons
+			tab-title: Social icons
+			options:
+				"Icons": section-title
+				displayIcons:
+					label: Display social icons
+					type: checkbox
+					default:
+						display:
+							label: "Yes"
+							checked: true
+				icons:
+#					label: Social Icons
+					label-counter: 'Icon #'
+					type: clone
+					default: [
+						[
+							iconUrl: {
+								label: Icon URL,
+								type: image-url,
+								default: 'design/img/ico/fb.png'
+							},
+							title: {
+								label: Title,
+								type: text,
+								default: Facebook
+							},
+							link: {
+								label: Link,
+								type: text,
+								default: 'http://www.facebook.com/AitThemes'
+							},
+						],
+						[
+							iconUrl: {
+								label: Icon URL,
+								type: image-url,
+								default: 'design/img/ico/twitter.png'
+							},
+							title: {
+								label: Title,
+								type: text,
+								default: Twitter
+							},
+							link: {
+								label: Link,
+								type: text,
+								default: 'http://www.twitter.com/AitThemes'
+							},
+						],
+						[
+							iconUrl: {
+								label: Icon URL,
+								type: image-url,
+								default: 'design/img/ico/rss.png'
+							},
+							title: {
+								label: Title,
+								type: text,
+								default: Rss
+							},
+							link: {
+								label: Link,
+								type: text,
+								default: 'http://www.ait-themes.com/feed/'
+							},
+						],
+					]
+		officeInformation:
+			title:     Office Information
+			tab-title: Office Information
+			less: true
+			options:
+				Display Settings : section
+				#################
+				officeHoursDisplay:
+					label: Display office hours
+					type: radio
+					default: {
+						true: {
+							label: 'Yes'
+							checked: true
+						},
+						false: {
+							label: 'No'
+						}
+					}
+				officeContactDisplay:
+					label: Display office contact
+					type: radio
+					default: {
+						true: {
+							label: 'Yes'
+							checked: true
+						},
+						false: {
+							label: 'No'
+						}
+					}
+				Office Hours : section
+				#################
+				day_monday:
+					label: 'Monday:'
+					type: text
+					default: "Free day"
+				day_tuesday:
+					label: 'Tuesday:'
+					type: text
+					default: "Free day"
+				day_wednesday:
+					label: 'Wednesday:'
+					type: text
+					default: "Free day"
+				day_thursday:
+					label: 'Thursday:'
+					type: text
+					default: "Free day"
+				day_friday:
+					label: 'Friday:'
+					type: text
+					default: "Free day"
+				day_saturday:
+					label: 'Saturday:'
+					type: text
+					default: "Free day"
+				day_sunday:
+					label: 'Sunday:'
+					type: text
+					default: "Free day"
+				Office Contact : section
+				#################
+				email:
+					label: 'Email:'
+					type: text
+					default: 'orders@yourdoctor.com'
+				phone_number:
+					label: 'Phone Number:'
+					type: text
+					default: '(056) 99-123456'
+
+appearance:
+	title:     Appearance Settings
+	menu-title: Appearance
+	tabs:
+		colors:
+			title: Colors & Bacgkrounds
+			tab-title: Colors & Bacgkrounds
+			less: true
+			options:
+				Website Background: section
+				#################
+				htmlBgColor:
+					label: Background Color
+					type: colorpicker
+					default: '#ffffff'
+					themebox: { label: Background, page: all }
+				htmlBg:
+					label: Background Image
+					type: image-url
+					default: ''
+				htmlBgY:
+					label: Vertical Position
+					type: select
+					default: {
+						top: {
+							label: Top
+							checked: true
+						},
+						center: {
+							label: Center
+						},
+						bottom: {
+							label: Bottom
+						}
+					}
+				htmlBgX:
+					label: Horizontal Position
+					type: select
+					default: {
+						left: {
+							label: Left
+						},
+						center: {
+							label: Center
+							checked: true
+						},
+						right: {
+							label: Right
+						}
+					}
+				htmlBgRepeat:
+					label: Repeat
+					type: select
+					default: {
+						no-repeat: {
+							label: No Repeat
+						},
+						repeat: {
+							label: Repeat
+						},
+						repeat-x: {
+							label: Repeat X
+							checked: true
+						},
+						repeat-y: {
+							label: Repeat Y
+						}
+					}
+				htmlBgAttach:
+					label: Scroll the background?
+					type: radio
+					themebox: {page: all}
+					default:
+						scroll:
+							label: 'Yes'
+							checked: true
+						fixed:
+							label: 'No'
+				headerBgColor:
+					label: Header Background Color
+					type: colorpicker
+					default: '#ffffff'
+					themebox: { label: TopStrip Bg, page: all }
+				menusBgColor:
+					label: Menu Bg Color
+					type: colorpicker
+					default: '#333333'
+					themebox: { label: Menus, page: all }
+				contentBgColor:
+					label: Content Background Color
+					type: colorpicker
+					default: '#ffffff'
+					themebox: { label: Content Bg, page: all }
+				sliderBgColor:
+					label: Slider Background Color
+					type: colorpicker
+					default: '#d2d9dc'
+					themebox: { label: Slider Bg, page: all }
+				testimonialsBgColor:
+					label: Testimonials Background Color
+					type: colorpicker
+					default: '#fcfcfc'
+					themebox: { label: Testimonials Bg, page: all }
+				footerBgColor:
+					label: Footer Background Color
+					type: colorpicker
+					default: '#333333'
+					themebox: { label: Footer Bg, page: all }
+				footerPattern:
+					label: Footer Background Pattern
+					type: image-url
+					default: 'design/img/sand.png'
+					themebox: {
+						label: Footer pattern,
+						page: all,
+						{title: Floral, img: design/img/patterns/floral.png}
+						{title: Sand, img: design/img/patterns/sand.png}
+						{title: Wood, img: design/img/patterns/wood.png}
+					}
+				Website Decoration: section
+				#################
+				themeColor:
+					label: Theme Color
+					type: colorpicker
+					default: "#889aa3"
+					themebox: { label:Theme, page: all }
+				darkLinesColor:
+					label: Dark Lines Color
+					type: colorpicker
+					default: '#333333'
+					themebox: { label: Dark Lines, page: all }
+				linesColor:
+					label: Lines Color
+					type: colorpicker
+					default: '#c5cfd4'
+					themebox: { label: Lines Color, page: all }
+				decorColor:
+					label: Decor Color
+					type: colorpicker
+					default: '#7ab602'
+					themebox: { label: Decor Color, page: all }
+		fonts:
+			title:     Fonts
+			tab-title: Fonts
+			less: true
+			options:
+				Font colors: section
+				#################
+				generalFontColor:
+					label: General Font Color
+					type: colorpicker
+					default: "#777777"
+					themebox: { label: Font, page: all }
+				linksFontColor:
+					label: Links Font Color
+					type: colorpicker
+					default: '#7ab602'
+					themebox: { label: Links, page: all }
+				titlesFontColor:
+					label: Titles Font Color
+					type: colorpicker
+					default: '#333333'
+					themebox: { label: Titles, page: all }
+				menusFontColor:
+					label: Menu Font Color
+					type: colorpicker
+					default: '#ffffff'
+					themebox: { label: Menus, page: all }
+				menusActiveFontColor:
+					label: Menu Active Font Color
+					type: colorpicker
+					default: '#ffffff'
+					themebox: { label: Menus Active, page: all }
+				footerLinksFontColor:
+					label: Footer Links Font Color
+					type: colorpicker
+					default: '#ffffff'
+					themebox: { label: Footer Links, page: all }
+				footerTextFontColor:
+					label: Footer Text Font Color
+					type: colorpicker
+					default: '#bbbbbb'
+					themebox: { label: Footer Text, page: all }
+				footerTitlesFontColor:
+					label: Footer Titles Font Color
+					type: colorpicker
+					default: '#ffffff'
+					themebox: { label: Footer Titles, page: all }
+				footerDecorFontColor:
+					label: Footer Decor Font Color
+					type: colorpicker
+					default: '#ffffff'
+					themebox: { label: Footer Decor, page: all }
+				pageFooterLinksColor:
+					label: Page Footer Links Color
+					type: colorpicker
+					default: '#ffffff'
+					themebox: { label: Page Footer Links, page: all }
+				pageFooterTextColor:
+					label: Page Footer Text Color
+					type: colorpicker
+					default: '#bbbbbb'
+					themebox: { label: Footer Text, page: all }
+
+
+		customCss:
+			title: Custom CSS
+			tab-title: Custom CSS
+			options:
+				Your custom CSS: section
+				########################
+				customCss:
+					type: custom-css
+					default: '/* your custom CSS in LESS syntax */'
+				LESS variables for images: section
+				########################
+				customImages:
+					type: custom-css-vars
+					default: [
+						[
+							variable: {
+								label: Image name
+								type: text
+							},
+							value: {
+								label: Image
+								type: image-url
+							}
+						]
+
+					]

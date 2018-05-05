@@ -1,0 +1,47 @@
+*** Scholar Changelog ***
+
+2015.06.22 - version 1.1.5
+ * Fix - Removes navigation background from homepage template.
+   css/scholar.css
+
+2015.06.01 - version 1.1.4
+ * Fix - Deprecated class notice on homepage.
+   functions.php
+
+ * Fix - Notice on Course Overview page.
+   sensei/loop-course.php
+
+2015.05.18 - version 1.1.3
+ * Fix - Use user display name instead of username.
+   functions.php
+
+2015.05.11 - version 1.1.2
+ * Fix - Fixes output of body classes.
+   functions.php
+
+ * Fix - Fixes header transition in Safari.
+   css/scholar.css
+
+2015.03.18 - version 1.1.1
+ * Fix - My Courses login page layout changes when WC is not installed.
+   css/scholar.css
+
+2015.03.09 - version 1.1.0
+ * Fix - Fixes a PHP warning in the homepage when a course doesn't have a category assigned.
+   functions.php
+
+ * New - Adds course princing to the Featured Courses section.
+   functions.php
+
+ * Fix - Make sure featured courses display the correct author
+   functions.php
+
+ * Fix - Fixes courses layout when on a paged archive view
+   css/scholar.css
+
+ * Fix - Fixes typography and option defaults.
+   functions.php,
+   css/scholar.css
+
+2014.11.01 - version 1.0.0
+ * First release!

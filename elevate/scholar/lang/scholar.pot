@@ -1,0 +1,105 @@
+# Copyright (C) 2014 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/duo\n"
+"POT-Creation-Date: 2014-07-14 13:35:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: functions.php:202
+msgid "Duo"
+msgstr ""
+
+#: functions.php:206
+msgid "Use Child Theme Custom Overrides"
+msgstr ""
+
+#: functions.php:207
+msgid "Disable this option if you'd like to setup your own typography and layout settings."
+msgstr ""
+
+#: functions.php:212
+msgid "Header - Profile Image"
+msgstr ""
+
+#: functions.php:213
+msgid "Upload an image to display above the site title and tagline. Square images work best."
+msgstr ""
+
+#: functions.php:218
+msgid "Hero - Custom Background"
+msgstr ""
+
+#: functions.php:219
+msgid "Upload a background image for your hero section, or specify an image URL directly."
+msgstr ""
+
+#: functions.php:224
+msgid "Hero - Title"
+msgstr ""
+
+#: functions.php:225
+msgid "Enter the Hero title."
+msgstr ""
+
+#: functions.php:230
+msgid "Hero - Title Font Style"
+msgstr ""
+
+#: functions.php:231
+msgid "Select typography for the hero title."
+msgstr ""
+
+#: functions.php:236
+msgid "Hero - Message"
+msgstr ""
+
+#: functions.php:237
+msgid "Enter the Hero message."
+msgstr ""
+
+#: functions.php:242
+msgid "Hero - Message Font Style"
+msgstr ""
+
+#: functions.php:243
+msgid "Select typography for the hero message."
+msgstr ""
+
+#: functions.php:248
+msgid "Hero - Button"
+msgstr ""
+
+#: functions.php:249
+msgid "Enter the Hero button text."
+msgstr ""
+
+#: functions.php:254
+msgid "Hero - Button Link"
+msgstr ""
+
+#: functions.php:255
+msgid "Enter the Hero button url."
+msgstr ""
+
+#: functions.php:261
+msgid "Booking - Product ID"
+msgstr ""
+
+#: functions.php:262
+msgid "Enter the ID of your booking product to display it on the homepage."
+msgstr ""
+
+#: functions.php:355
+msgid "Happy Customers"
+msgstr ""
+
+#: functions.php:394
+msgid "Make a booking"
+msgstr ""

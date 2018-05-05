@@ -1,0 +1,26 @@
+overrideGlobal:
+	label: Use these settings
+	type: checkbox
+	default:
+		'yes':
+			label: 'Yes'
+testimonialsDisplay:
+	label: Show
+	type: radio
+	default: {
+		true: {
+			label: 'Yes'
+			checked: true
+		},
+		false: {
+			label: 'No'
+		}
+	}
+testimonialsCategory:
+	label: Testimonials Category
+	type: dropdown-categories
+	default: 'testimonial'
+testimonialsBackground:
+	label: Testimonials Background
+	type: colorpicker
+	default: '#FFFFFF'

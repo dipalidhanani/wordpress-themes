@@ -1,0 +1,10 @@
+overrideGlobal:
+	label: Use these settings
+	type: checkbox
+	default:
+		'yes':
+			label: 'Yes'
+localContentColor:
+	label: Content Background Color
+	type: colorpicker
+	default: '#FFFFFF'

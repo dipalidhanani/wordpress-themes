@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+.login-action-login{
+	background-color: #d4eff1 !important;
+}
+
+.login-action-login #login{
+	background: #d4eff1 url("http://www.sarclearningcentral.ca/elevate/wp-content/themes/scholar/images/login_bg_bottom.png") no-repeat scroll center bottom / 100% auto;
+	width:100%;
+	/*padding-bottom:300px;*/
+	 min-height: 100%;
+	  margin-bottom: -46px;
+	  padding-top:0 !important;
+}
+
+
+
+.login-action-login #login h1,.login-action-login #loginform {
+    width:580px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.login-action-login #login h1{
+	padding-top:8%;
+	margin-bottom:64px;
+}
+#login_error, .login .message{
+	width:556px !important;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.login-action-login #loginform{
+	background-color:transparent !important;
+	box-shadow:none !important;
+	padding:0 !important ;
+}
+
+.login-action-login label{
+	text-indent:-222222px;
+	display:block;
+	margin:0;
+	overflow:hidden;
+}
+
+.login-action-login label br{
+	display:none;
+}
+
+ .login-action-login #loginform input[type="text"],.login-action-login #loginform input[type="password"]{
+	background-color: #ffffff;
+    border: 1px solid #c0e0e2;
+    border-radius: 0;
+    box-shadow: 0 0 5px 3px #e5f6f7 inset, 0 0 1px 1px #cde7e8;
+    color: #70c9d1;
+    float: left;
+    font-family: "Open Sans",arial,sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    height: 58px;
+    margin: 0;
+    padding: 0 0 0 20px;
+    text-align: center;
+	width:100%;
+	margin-bottom:30px;
+ }
+ 
+ .login-action-login #loginform input[type="password"]{
+	 margin-bottom:0;
+ }
+ 
+ .login-action-login #loginform input[type="submit"]{
+	  background: #b39658 url("http://www.sarclearningcentral.ca/elevate/wp-content/themes/scholar/images/lock.png") no-repeat scroll 40px center;
+    border: medium none;
+    border-radius: 40px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: "Open Sans",arial,sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    height: 59px;
+    margin: 31px auto 0;
+   /* padding-bottom: 20px;*/
+    padding-bottom: 0;
+    padding-left: 36px;
+    width: 182px;
+	float:none;
+	clear:both;
+ }
+ 
+ .login #nav{
+	 margin-left:auto;
+	 margin-right:auto;
+	 width:580px;
+	 margin:0 auto;
+    color: #70c9d1 !important;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+	padding-top: 18px;
+	padding-bottom:300px;
+ }
+ 
+ .login #nav a{
+	 color: #70c9d1 !important;
+ }
+ #backtoblog{
+	 display:none;
+ }
+ 
+ .login-action-login .site-footer {
+    background-color: #fff;
+	height:46px;
+}
+#copyright p, #credit p {
+    color: #7d7d7d !important;
+    font-size: 13px !important;
+    line-height: 18px !important;
+}
+
+.col-left {
+    float: left;
+}
+
+#footer, #footer p {
+    color: #7f868a;
+    font: 1em/1.4em "Open Sans",arial,sans-serif;
+}
+
+
+.col-right {
+    float: right;
+}
+
+.footerSec{
+	max-width: 1170px !important;
+	margin:0 auto;
+	overflow:hidden;
+	padding:14px 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+
+
+.login-action-login #login h1 a{
+	background:url(http://www.sarclearningcentral.ca/elevate/wp-content/uploads/2015/10/login_logo.png) no-repeat 0 0;
+	width:461px;
+	height:112px;
+}

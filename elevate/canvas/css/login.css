@@ -1,0 +1,277 @@
+/*login page start*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Quicksand",sans-serif;
+}
+#login{
+  margin-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 0;
+      width:100%;
+}
+.login-header{
+	padding:40px 0;
+	overflow:hidden;
+}
+.login-header .logo{
+	margin:0 auto;
+	width:404px;
+}
+.login-section{
+	padding:90px 0;
+	overflow:hidden;
+	background:url(../images/login_bg.jpg) repeat-x 0 bottom #FFF;
+	position:relative;
+}
+.login-logo{
+	margin: 0 auto 40px;
+	width: 489px;
+}
+.login-section:before{
+	height:7px;
+	position:absolute;
+	left:0;
+	right:0;
+	display:block;
+	content:'';
+	top: 0;
+	background:url(../images/login_top.png) repeat-x 0 0;
+}
+.login-form{
+	width:1170px;
+	margin:0 auto;
+	text-align:center;
+	padding: 80px 0;
+	background-color: #FFF;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+}
+.login-form h2{
+	font-size:36px;
+	line-height:40px;
+	color:#e41e26;
+	font-weight:400;
+	text-transform:uppercase;
+	margin:0 0 43px;
+}
+p.login-field{
+	overflow:hidden;
+	background-color:#FFF;
+	padding:0 10px;
+	margin:0 295px 30px;
+  margin-bottom:30px !important;
+	border: 1px solid #e5e5e5;
+}
+.login-form .submit{
+	margin: 0 295px 25px;
+	overflow: hidden;
+}
+.login-form input[type=text], .login-form input[type=password]{
+	color:#686768;
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	border:none;
+	width:100%;
+	height:60px;
+	text-align:center;
+  background-color: #FFF;
+  box-shadow:none;
+  margin-bottom:0px;
+}
+.login-form .button{
+	height:60px;
+	display:block;
+	border:none;
+	cursor:pointer;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	text-align:center;
+	font-size:20px;
+	font-weight:600;
+	color:#FFF;
+	line-height:60px;
+	font-family: 'Open Sans', sans-serif;
+	width:48%;
+	text-transform:uppercase;
+	vertical-align:top;
+	background-color: #0076c0;
+	position:relative;
+	float: left;
+}
+.login-form .button span{
+	background:url(../images/login_icon.png) no-repeat 0 20px;
+	display:inline-block;
+	color:#FFF;
+	padding: 0 0 0 23px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.login-reg-btn{
+	height:60px;
+	display:block;
+	border:none;
+	cursor:pointer;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	text-align:center;
+	font-size:20px;
+	font-weight:600;
+	color:#FFF;
+	line-height:60px;
+	font-family: 'Open Sans', sans-serif;
+	width:48%;
+	text-transform:uppercase;
+	vertical-align:top;
+	background-color: #1d8e44;
+	position:relative;
+	float: right;
+}
+.login-reg-btn span{
+	background:url(../images/register_icon.png) no-repeat 0 20px;
+	display:inline-block;
+	color:#FFF;
+	padding: 0 0 0 24px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.login-form .button:hover, .login-reg-btn:hover{
+	background-color: #666666;
+}
+#footer .copyright {
+    background-color: #252525;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 16px;
+}
+#footer .login-footer{
+	padding:16px 0;
+	overflow:hidden;
+	background-color:#FFF ;
+}
+.login-footer p{
+	line-height:18px;
+	font-size:13px;
+}
+.login-footer p.copytext{
+	float:left;
+}
+.login-footer p.designby{
+	float:right;
+}
+.login-footer p a{
+	color:#e6282e;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.login-footer p a:hover{
+	color:#0076c0;
+}
+.forgot-pass{
+	color:#1d8e44;
+	font-size:18px;
+	line-height:22px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+  text-decoration:none;
+}
+.forgot-pass:hover{
+	color: #0076c0;
+}
+.login h1 {
+  display:none;
+}
+input[type="text"], input[type="password"], input[type="submit"], input[type="reset"], textarea, select {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.login form{
+  margin:0;
+  padding:0;
+  box-shadow:none;
+}
+.login form .input, .login form input[type="checkbox"], .login input[type="text"] {
+  background-color:none;
+  
+}
+#login form p.submit{
+  margin-bottom: 25px;
+     margin-left: 295px;
+     margin-right: 295px;
+     margin-top: 0;
+     overflow-x: hidden;
+     overflow-y: hidden;
+}
+#login form .button {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #0076c0;
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color: -moz-use-text-color;
+    border-left-style: none;
+    border-left-width: medium;
+    border-right-color: -moz-use-text-color;
+    border-right-style: none;
+    border-right-width: medium;
+    border-top-color: -moz-use-text-color;
+    border-top-style: none;
+    border-top-width: medium;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-family: "Open Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    vertical-align: top;
+    width: 48%;
+}
+p#backtoblog {
+  display: none;
+}
+/*login page end*/

@@ -1,0 +1,320 @@
+/*
+Theme name: Impero Premium (shared on themelock.com)
+Theme URI: http://yourinspirationweb.com/demo/impero/
+Description: Minimalist WordPress Theme
+Version: 2.0
+Author: Your Inspiration Web
+Author URI: http://www.yourinspirationweb.com/en/
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: white, light, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, custom-colors, custom-header, custom-menu, editor-style, theme-options, threaded-comments, sticky-post, translation-ready
+*/
+@font-face {
+	font-family: 'gothic';
+	src: url('./gothic.eot');
+	src: local('gothic'), url('./gothic.woff') format('woff'), url('./gothic.ttf') format('truetype');
+}
+html { margin:0; padding:0;}
+body{ background-color:#0b2a19!important;  margin:0 ; font-family: 'gothic' !important;}
+body    {
+		padding:0;
+        }
+.staff_name { overflow:hidden; padding: 0 0 0 15px;}
+.container{background:#fff; box-shadow: 0px 0px 10px #ffffff; width: 1170px; min-width: 1170px; max-width: 1170px; margin: 0 auto;  }
+form label{width:89px; float:left;}
+#post-2089 form label{width:240px; float:left;}
+form input,textarea{border: 1px #ccc solid;
+padding: 8px;}
+#comments{width:486px;}
+.leftbar{width:260px; float:left;  padding:15px 8px 15px 15px;}
+.rightbar{ float: left;
+padding: 15px 15px 15px 8px;
+width: 864px;}
+.rightbar2 {overflow:hidden; padding: 15px; }
+.rightbar3 {overflow:hidden; padding: 15px; }
+.logo{ box-shadow: 0px 0px 8px #001e0d;}
+.logo img { width: 100%; padding-bottom:15px; vertical-align: middle;}
+.menus{ margin-top: 15px; background-color:#0b2a19; padding: 25px; box-shadow: 0px 0px 8px #001e0d;}
+.banner{ box-shadow: 0px 0px 9px #001e0d; float:left; width: 865px;  }
+.home .banner li img { width: 100%; height: 650px;}
+.banner li img { width: 100%; height: 447px;}
+.banner2 li img { width: 100%; height: 447px;}
+.rightbar_2 { overflow:hidden;  box-shadow: 0px 0px 9px #001e0d; }
+.rightbar_3 { overflow:hidden;   }
+.banner2 { }
+.banner2 img { width: 100%;}
+.banner img { vertical-align: middle;  width: 100%; min-height: 164px;  }
+.heading{background-image: url(images/tagline.png);
+height: 62px;
+float: left;
+margin: 5px 0;
+width: 186px;
+background-repeat: no-repeat;}
+.heading div{font-family: 'gothic' !important;
+line-height: 15px;
+font-size:14px; text-align:left;}
+
+
+.menus ul{ list-style-type:none; color:#fff; padding: 0;}
+.menus ul li{ list-style-type: none; 
+color: #fff;
+text-align: left;
+padding: 0;
+line-height: 36px;
+font-size: 18px;
+position:relative; text-transform: uppercase; }
+.menus ul li li { list-style-type: none;  white-space: pre;
+padding: 0 15px;
+min-width:200px;
+line-height: 36px;
+font-size: 16px;
+position:relative}
+.menus ul li ul { background-color:#0b2a19;display: none;
+    left: 210px;
+    padding: 0 0 0 25px;
+    position: absolute;
+    top: 0;
+    z-index: 9999;} 
+.menus ul li:hover > ul { display:block;}
+.menus ul li a{ text-decoration:none; font-family: 'gothic' !important;
+color: #fff;
+}
+img { border:0; vertical-align:middle;}
+
+.menus ul li a:hover{ text-decoration:underline; font-family: 'gothic' !important;
+color: #fff;
+}
+
+
+.icons{ float:left;}
+.icons ul {list-style-type:none; padding:0; }
+.icons ul li { list-style-type: none;
+color: #fff; float:left;
+text-align: left;
+padding: 0; margin-right:15px;
+   line-height: 24px;
+}
+.icons ul li a{ text-decoration:none;
+}
+.cont { float:left; clear:both ; width: 100%;}
+.bannerlinks{background-color:#0b2a19; box-shadow: 0px 0px 8px #001e0d; padding:10px; margin-top:15px; float:left; width: 845px}
+.bannerlinks ul{ list-style-type:none; color:#fff;  background-color:#0b2a19; box-shadow: 0px 0px 9px #001e0d; margin-top:0; padding:0; }
+.bannerlinks ul li{list-style-type: none;
+color: #fff;
+text-align: center;
+padding: 0;
+font-size: 15px; float:left; padding: 0 20px; }
+
+.bannerlinks ul li a{ color: #fff; text-decoration:none; text-transform:uppercase; padding:6px 0; display:inline-block;}
+.clear { clear:both; height: 0px;}
+
+
+
+
+.head{color: #fff; font-family: 'gothic' !important; font-size:20px;text-transform:uppercase;}
+.para{color:#616161; font-size:13px; font-family:Verdana, Geneva, sans-serif; padding:15px 0; text-align:justify;}
+
+
+.bannerlinks1{padding:0 0; margin-top:15px; clear:both; float:left; width: 100%; }
+.head1{    color: #09583E;
+    font-family: 'gothic' !important;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 16px;
+    margin-bottom: 15px;
+    text-transform: uppercase;}
+	
+.blog_articles_post .head1 a, .work-description h3{ color: #09583E;
+    font-family: 'gothic' !important;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 16px;
+    margin-bottom: 15px;
+    text-transform: uppercase;   }		
+	
+	
+.nursery{float: right;
+background-color: #fff;
+padding-left: 15px;
+width: 220px;
+margin: 0 0 0 18px;
+height: auto;}
+.ht1 { height: 100px;}
+
+.nursery1{float: right; background-color:#fff; padding:0 15px 15px 15px;
+width: 220px; margin: 0 0 0 18px;height:auto;}
+.nursery1 ul{padding:0;}
+.nursery1 ul li{ list-style-type:none; line-height:26px;}
+.nursery1 ul li a{color:#000;
+font-size: 14px;
+text-decoration: none; font-family: Verdana, Geneva, sans-serif !important;}
+.nursery1 h2{ font-size:16px; font-family: 'gothic' !important; color:#09583e; margin:0; font-weight: 100; }
+.n1{ font-size:16px; font-family: 'gothic' !important; color:#09583e; float: left;}
+.nursery a{font-size:12px; font-family: 'gothic' !important; color:#09583e; text-decoration:none; text-align:left; margin-top:18px; float:left; }
+
+.n2{margin-top:72px;  font-size:16px; font-family: 'gothic' !important; color:#09583e; }
+.recent-post a{ color:#000; font-family: Verdana, Geneva, sans-serif !important; font-size: 14px;}
+.recent-post p{ color:#000; font-size:12px; font-family: Verdana, Geneva, sans-serif !important;}
+div.p12 {font-size: 12px;
+font-family: 'gothic' !important;
+color: #09583e;
+text-decoration: none;
+text-align: left;
+margin-top: 18px;
+margin-bottom: 0;
+float: left; padding: 0}
+.single .post_data .p_content { padding:0; clear:both;}
+.n2 ul{ list-style-type:none; padding:0; margin:0;}
+.n2 ul li{ list-style-type: none;
+text-align: left; width: 123px;
+}
+.post_img1 { float:left; width: 100%; padding: 20px 0 0 0}
+.n2 ul a, .hentry-post a{font-size:12px; font-family: 'gothic' !important; color:#09583e; text-decoration:none; text-align:left; margin-top:18px; float:left;}
+
+
+/*@media screen and ( max-width:1179px){.bannerlinks ul li{width:39%;
+line-height: 43px; float:left;} 
+}
+
+
+@media screen and ( max-width:1050px){.bannerlinks ul li{width:32%;
+line-height: 43px; float:left;} 
+}*/
+
+
+/*home---slider*/
+.nivo-slider {position:relative;margin-bottom:35px}
+.nivo-slider .nivo-slice, .nivo-slider .nivo-box {position:absolute;}
+.nivo-slider img {position:absolute;top:0;left:0;border:0 !important;padding:0 !important;width:100%}
+.nivo-controlNav {position:absolute;top:102%} 
+.nivo-controlNav a {background:url('images/icons/pagination-slider.png') no-repeat;cursor:pointer;display:block;float:left;height:12px;margin:0 5px 0 0;position:relative;text-indent:-9999px;width:12px;z-index:99;}
+.nivo-controlNav a:hover, .nivo-controlNav a.active {background-position:0 -12px}
+
+#slider { width: 1023px; max-width:100%; }
+.slider-mobile{ display: none; }
+.slider-text { position: absolute ; bottom: 40px; left: 0; width: 100%; background: url(http://salmon.newmayodesigns.com/wp-content/themes/impero/images/slider-opacity.png) repeat left top;}
+.slider-text h2 { color: #fff; padding: 0 20px; margin:5px 0 }
+.slider-text p { color: #fff; padding:0 20px; margin: 5px 0} 
+.sldrlink a{display:none;}
+.smooth_slider .smooth_next {display:none;}
+.smooth_slider .smooth_prev { display:none;}
+
+.smooth_sliderb:hover .smooth_next {position: absolute;right: 0px;top:45%; width: 24px; height: 24px; cursor: pointer; background: transparent url(buttons/default/next.png) no-repeat 0 0;}
+.smooth_sliderb:hover .smooth_prev { position: absolute;left: 0px;top:45%; width: 24px; height: 24px; cursor: pointer; background: transparent url(buttons/default/prev.png) no-repeat 0 0;}
+
+
+.metaslider:hover .rslides_nav {
+   display:block!important;
+   
+}
+.rslides_nav{display:none!important;}
+
+.page-template-blog-php .post_title .head1 a{
+	color: rgb(9, 88, 62)!important;   
+	text-decoration:none!important;
+	
+}
+.page-template-blog-php .posts img{ float: left;
+    height: 123px;
+    width: 245px;}
+.page-template-blog-php .posts, .work-description p{  color: rgb(97, 97, 97);
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 13px;
+    padding: 15px 0;
+    text-align: justify;}
+.work-description p  { padding: 0px !important;}	
+.single-post .posts{ color: rgb(97, 97, 97);
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 13px;
+    padding: 0 0 15px 0;
+    text-align: justify;}
+	
+.page-template-blog-php	.post_nothumb{margin-top:32px;}
+.page-template-blog-php .bannerlinks1{margin-top:0;}
+.post_data{float:left;   border-bottom: 1px solid;
+    float: left; width:100%;
+    padding-bottom: 15px;margin-bottom: 15px;}	
+.post_data .p_content p{float:left; clear:both;}	
+.post_data .p_content img{float:left; clear:both;}	
+.post_data .p_content div{float:left; clear:both;}	
+
+.post_data .p_content a{float:right;}
+.page-template-blog-php .post_title{} 
+.post_data .p_content{ overflow:hidden; padding: 0 0 0 10px}
+	
+
+#text-11,#text-12,#text-13, .widget_search, .recent-posts{
+background-color: rgb(255, 255, 255);
+box-shadow: 0 0 9px rgb(0, 30, 13);
+float: right;
+height: auto;
+margin: 0 0 0 12px;
+padding: 15px;
+width: 206px;
+margin-bottom: 14px;	
+	
+}
+#text-13 { height: 80px}
+#text-12 { height: 194px; margin-bottom: 0px;	}
+#text-11 { height: 55px}
+#text-12 .n2{margin-top:0;}	
+	
+	
+.staff{	float: left; width: 200px; }
+
+.mapdiv { float:right; border: 1px solid #000}
+
+.contactform {
+    clear: both;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.address { float:left; width: 245px;}
+.blog-class .attachment-blog_big{
+	width: 700px;
+	height:431px;
+	padding-bottom:12px;
+	}
+.cont-left { float:left; width: 49%;}
+.cont-right { float:right; width: 49%;}
+.address2 {
+    height: 201px;
+    margin: -31px 0 0;
+}
+.address2 p {
+    color: #616161;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+.fo-left { float:left; width: 48%; margin: 0 0 10px 0 }
+.fo-right { float:right; width: 48%;  margin: 0 0 10px 0}
+.wpcf7-textarea { float:left; width: 100%;}
+.contactform P { float:left;}
+div.wpcf7 { float:left; width: 100%;}
+div.wpcf7 .wpcf7-form { float:left; width: 100%;}
+.contactform input, .contactform textarea {
+    border: 1px solid #CCCCCC;
+    padding: 5px 2%;
+	width: 96%;
+}
+.fo-left2 { clear:both;}
+.contactform .fo-left label, .fo-left4 label, .fo-left2 label { width: 100%;}
+
+.address {
+    float: left;
+    margin: 0 0 20px;
+    width: 100%;
+}
+.address p { margin: 0 0 0 0}
+.contactform textarea { height: 107px; }
+.contactform .fo-left3 input { width: auto;} 
+.fo-left3 { clear:both;}
+
+.span.wpcf7-form-control-wrap { width: 100%; float:left}
+.fo-left4 { width: 100%; float:left}
+.contactform P {
+    float: left;
+    width: 100%;
+}

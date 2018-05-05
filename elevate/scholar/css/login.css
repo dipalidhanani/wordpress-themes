@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logoin_area .site-footer{
+	background-color:#fff;
+}
+
+.login-action-login #login{
+	width:580px !important;
+}

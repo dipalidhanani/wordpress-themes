@@ -1,0 +1,2568 @@
+
+@import '../../canvas/css/modules/all';
+@import "bourbon";
+
+$bg:				#fafafa;
+$color1:			#7088B7;
+$color2:			#848788;
+$color_headings: 	#333333;
+$color_body:		#5D5D64;
+$body:				'Open Sans', sans-serif;
+$headings:			$body;
+
+// Typography Resets
+html {
+	font-size: 62.5%; // Reset font size to 10px for easy calculation
+}
+
+body  {
+	background-color: $bg;
+	overflow-x: hidden;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	font: 400 1.4em/1.618 $headings;
+	color: $color_body;
+	-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $body;
+	color: $color_headings;
+	margin: 0 0 .618em;
+}
+
+h1 {
+	font-size: 2.244em;
+	line-height: 1.387em;
+}
+
+h2 {
+	font-size: 1.618em;
+	line-height: 1.387em;
+}
+
+h3 {
+	font-size: 1.387em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5  {
+	font-size: 1em;
+}
+
+h6  {
+	font-size: .857em;
+}
+
+small,
+.font_small {
+	font-size: 0.707em;
+}
+
+p {
+	font: 400 1em/1.618 $headings;
+	-webkit-hyphens : auto;
+	-webkit-hyphenate-character : "\2010";
+	-webkit-hyphenate-limit-after : 1;
+	-webkit-hyphenate-limit-before : 3;
+	-moz-hyphens : manual;
+	orphans : 3;
+	widows : 3;
+}
+
+.page-title,
+.post .title,
+.page .title,
+.entry-title {
+	font: 700 2.244em/1.387 $body;
+	margin-bottom: .236em;
+}
+
+.post-meta {
+	font: 400 0.9em/1.618 $headings;
+}
+
+.entry {
+	font: 400 1em/1.618 $headings;
+
+	p {
+		font: 400 1em/1.618 $headings;
+		margin-bottom: 1.618em;
+	}
+
+	.wp-caption-text {
+		font: 400 0.9em/1.618 $headings;
+	}
+
+	.wp-caption {
+		box-shadow: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+	}
+}
+
+#navigation {
+		font: 400 1em/1.618 $headings;
+}
+
+.widget {
+	h3 {
+		font: 700 1em/1.618 $body;
+		text-transform: uppercase;
+	}
+
+	p {
+		font: 400 1em/1.618 $headings;
+	}
+}
+
+#tabs {
+	.inside {
+		li {
+			a {
+				font: 400 0.618em/1.618 $headings;
+			}
+
+			span.meta {
+				font: 400 0.618em/1.618 $headings;
+			}
+		}
+	}
+}
+
+.widget_woodojo_tabs {
+	.tabbable .tab-content {
+		li {
+			a {
+				font: 400 0.618em/1.618 $headings;
+			}
+
+			span.meta {
+				font: 400 0.618em/1.618 $headings;
+			}
+		}
+	}
+}
+
+.woo-pagination span.extend,
+.woo-pagination .page-numbers {
+	color: $color1;
+}
+
+// Links
+a {
+	&:link,
+	&:visited {
+		color: $color1;
+		text-decoration: none;
+	}
+
+	&:hover {
+		text-decoration: underline;
+		color: darken( $color1, 10% );
+	}
+}
+
+// Tables
+.entry table {
+	background: rgba(0,0,0,0.05);
+	border: 0;
+	box-shadow: none;
+
+	thead th,
+	tbody th {
+		background: rgba(0,0,0,0.05);
+		border-color: rgba(0,0,0,0.1);
+	}
+
+	tbody td,
+	tfoot td,
+	th {
+		border-color: rgba(0,0,0,0.1);
+	}
+}
+
+// Layout
+#main {
+	padding-top: 1.618em;
+}
+
+// Header
+#header {
+	position: static;
+	background: #fff;
+	padding: 2.499em 0;
+	margin: 0;
+	border-bottom: 2px solid #eee;
+}
+
+#header-container {
+	margin-bottom: 2.618em;
+}
+
+// Navigation
+#nav-container {
+	border: 0;
+	background: none;
+	padding-left: 0;
+	padding-right: 0;
+
+	#navigation {
+		ul#main-nav {
+			> li {
+				&:first-child {
+					border-left: 0;
+				}
+			}
+		}
+	}
+}
+
+// Logo
+#logo {
+	margin: 0;
+	float: none;
+	text-align: center;
+
+	.site-title {
+		font: 400 1em/1.618 $body;
+		margin: 0 0 .132em;
+
+		a {
+			font: 700 1.5em/1.618 $headings;
+			color: #222;
+		}
+	}
+
+	.site-description {
+		font: 400 .857em/1 $headings;
+		color: #ccc;
+	}
+
+	.logo-alt {
+		display: none;
+	}
+
+}
+
+// Content
+#content {
+	background: #fff;
+	padding: 2.618em;
+	margin-left: 1.618em;
+	margin-right: 1.618em;
+	margin-bottom: 4.236em;
+	border: 2px solid #eee;
+	border-radius: .237em;
+	@include box-sizing( border-box );
+}
+
+// Clear styling on selected pages
+.page-template-template-homepage-php,
+.post-type-archive-lesson,
+.post-type-archive-course,
+.sensei-courses-page {
+	#content {
+		background: none;
+		padding: 0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 0;
+		border: 0;
+		border-radius: 0;
+	}
+
+	&.full-width {
+		#content {
+			padding: 0;
+		}
+	}
+}
+
+.post-type-archive-lesson,
+.post-type-archive-course,
+.sensei-courses-page {
+	#content {
+		padding: 0 1.618em;
+	}
+
+	&.full-width {
+		#content {
+			padding: 0 1.618em;
+		}
+	}
+}
+
+
+// Post
+.archive_header {
+	font-weight: 700;
+}
+
+// Misc
+input,
+textarea {
+	background: #F6F6F6;
+	border: 2px solid #eee;
+
+	&:focus {
+		border-color: #ddd;
+	}
+}
+
+a.button,
+a.comment-reply-link,
+#commentform #submit,
+.submit,
+input[type=submit],
+input.button,
+button.button,
+#wrapper .woo-sc-button,
+.navigation a {
+	background: $color1;
+	color: #fff !important;
+	border: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	@include transition;
+	text-transform: none;
+	font-weight: 400;
+
+	&:hover {
+		background: $color1;
+		color: #fff !important;
+	}
+
+	&:active {
+		color: #fff !important;
+		border-color: darken( $color1, 10% );
+		background: darken( $color1, 10% );
+		@include box_shadow_reset;
+	}
+}
+
+// Shortcode
+body p.woo-sc-box,
+body div.woo-sc-box {
+	border-width: 2px;
+	border-radius: .327em;
+}
+
+// Widgets
+.widget {
+	font-size: inherit;
+
+	h3 {
+		padding: 0;
+		border: 0;
+		margin: 0 0 .5em;
+		color: #666;
+	}
+
+	ul {
+		li {
+			margin: 0 0 .3em;
+		}
+	}
+}
+
+.widget_recent_comments {
+	li {
+		border: 0;
+	}
+}
+
+.searchform,
+#searchform {
+	background: #fff;
+}
+
+// Footer
+#footer-widgets-container {
+	border-top: 2px solid #eee;
+
+	#footer-widgets {
+		border-bottom: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+// Footer Widgets
+#footer-widgets {
+	margin: 0 -1.618em;
+	padding: 1.618em 1.681em 1em;
+	background: none;
+	color: #7f868a;
+	border-top: 0;
+
+	.widget {
+		font-size: inherit;
+		color: #7f868a;
+
+		h3 {
+			color: #5D5D64;
+			margin: 0 0 1.2em;
+			text-transform: none;
+			font-size: 1.387em;
+			font-weight: normal;
+		}
+
+		p {
+			color: #7f868a;
+		}
+
+		ul {
+			list-style: none;
+
+			li {
+				margin-bottom: 1em;
+			}
+		}
+
+		.textwidget {
+			color: #7f868a;
+		}
+	}
+
+	.widget_woo_blogauthorinfo {
+		.avatar {
+			border: 0;
+			padding: 0;
+			background: none;
+			margin-top: .3em;
+		}
+	}
+}
+
+#footer {
+	padding: 3.631em 0;
+	color: #7f868a;
+	margin: 0;
+	border: 0;
+}
+
+#footer-container {
+	width: 100%;
+	background: none;
+	border-top: 2px solid #eee;
+
+	#footer {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+// WooCommerce
+.onsale {
+	background: $color1;
+	border-radius: 0;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+.quantity {
+	.plus,
+	.minus {
+		background: $color1;
+	}
+}
+
+.woocommerce {
+	.summary {
+		h1.product_title {
+			margin-bottom: .236em;
+		}
+
+		.star-rating {
+			margin: 0 0 .8em;
+		}
+
+		.woocommerce-review-link {
+			display: block;
+			margin: 0 0 .5em;
+		}
+
+		p.price {
+			margin-bottom: .327em;
+			font-weight: 300;
+			color: $color1;
+		}
+	}
+
+	.summary,
+	.images {
+		margin-bottom: 3.631em;
+	}
+
+	.product-type-booking {
+		form.cart {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	.woocommerce-tabs {
+		border-top: 0;
+		margin-bottom: 3.631em;
+		border-radius: 3px;
+
+		ul.tabs {
+			margin-bottom: 0;
+			@include clearfix;
+
+			li {
+				float: none;
+				display: inline-block;
+				margin: 0 -2px;
+
+				a {
+					background: none;
+					color: $color_body;
+
+					&:hover {
+						text-decoration: none;
+					}
+				}
+
+				&:first-child a {
+					@include border-left-radius(2px);
+					@include border-bottom-radius(0);
+				}
+
+				&:last-child a {
+					@include border-right-radius(2px);
+					@include border-bottom-radius(0);
+				}
+
+				&.active {
+					a {
+						color: $color_body;
+						background: rgba(0,0,0,0.05);
+						border: 0;
+
+						&:hover {
+							background: rgba(0,0,0,0.05);
+						}
+					}
+				}
+			}
+		}
+
+		.panel {
+			padding: 1.999em;
+			background: rgba(0,0,0,0.05);
+		}
+
+		.panel {
+			h2 {
+				font-size: 1.414em;
+			}
+		}
+	}
+
+	.related, .upsells {
+		h2 {
+			font-size: 1.414em;
+		}
+	}
+
+	#main {
+		.onsale {
+			top: 0;
+			left: 0;
+		}
+
+		div.product {
+			border: 0;
+			padding: 0;
+			margin: 0;
+			@include clearfix;
+		}
+	}
+
+	.cart-collaterals {
+		h2 {
+			font-size: 1.414em;
+		}
+	}
+
+	ul.products {
+		li.product {
+			h3 {
+				font-size: 1em;
+			}
+
+			.price {
+				color: $color1;
+			}
+		}
+	}
+}
+
+#reviews {
+	img.avatar {
+		background: none;
+		@include box_shadow_reset();
+	}
+}
+
+ul.products {
+	li.product {
+		margin-bottom: 2.827em;
+
+		h3 {
+			margin-top: 0;
+			margin-bottom: .25em;
+			font-size: 1.414em;
+		}
+
+		.price {
+			margin-bottom: .45em;
+		}
+	}
+}
+
+.widget {
+	ul.product_list_widget {
+		li {
+			img {
+				background: none;
+				border: 0;
+				padding: 0;
+			}
+
+			.star-rating {
+				margin-top: .35em;
+			}
+		}
+	}
+}
+
+// Comments
+#comments {
+	margin-top: 20px;
+
+	h3 {
+		font-weight: 400;
+		color: $color_headings;
+		margin: 0 0 1.387em;
+	}
+
+	.avatar {
+		margin: 0 1.414em 1em 0;
+	}
+
+	.comment {
+
+		.comment-container {
+			padding: 1.999em;
+		}
+
+		&.thread-even {
+			border: 0;
+			background: rgba(0,0,0,0.03);
+			border-radius: .327em;
+		}
+
+		.comment-head {
+			margin: 0 0 1.414em 0;
+			.name {
+				display: block;
+				font-size: 1.2em;
+			}
+
+			.edit,
+			.date,
+			.perma {
+				font-size: inherit;
+			}
+		}
+
+		.reply {
+
+			a {
+				font-size: .9em;
+				color: $color1 !important;
+				background: none;
+			}
+		}
+	}
+
+	.reply {
+		right: 1.99em;
+		top: 1.99em;
+	}
+
+	ul.children li {
+		border-top-color: rgba(0,0,0,0.1);
+	}
+}
+
+// Commments Form
+#respond {
+	margin: 2.244em 0 0;
+
+	h3 {
+		color: $color_headings;
+		margin: 0 0 1.387em;
+	}
+
+	.comment-reply-title {
+		font-weight: 400;
+
+		small {
+			font-family: $headings;
+		}
+	}
+
+	.logged-in-as {
+		margin: 0 0 1.618em;
+	}
+}
+
+#commentform {
+	input.txt,
+	textarea {
+		font: 400 1em/1.45 $headings;
+		padding: .707em;
+	}
+
+	input.txt {
+		width: 250px;
+		margin-bottom: .327em;
+	}
+
+	label {
+		display: block;
+		font-size: .85em;
+		margin: 0 5px 1.618em 0;
+	}
+
+	.hide {
+		display: none;
+	}
+}
+
+// Post
+.post,
+.search .page {
+	padding: 0 0 40px;
+	border-bottom: 2px solid #eee;
+}
+
+.post-meta {
+	font-style: italic;
+
+	a:link,
+	.categories a {
+		color: $color1;
+	}
+}
+
+.alignleft  { float: left; margin: 5px 1.414em 1.414em 0; }
+.alignright  { float: right; margin: 5px 0 1.414em 1.41em; }
+.aligncenter  { text-align: center; margin-bottom: 1.414em;}
+
+.entry img,
+img.thumbnail,
+#portfolio .group.portfolio-img img {
+	padding: .327em;
+	@include box-sizing(border-box);
+	border: 2px solid #eee;
+	border-radius: .237em;
+}
+
+.entry {
+	.wp-caption {
+		margin-bottom: 1.3em;
+		border: 0;
+		background: rgba(0,0,0,0.1);
+		padding: .5em;
+		@include box-sizing(border-box);
+
+		img {
+			margin: 0;
+			padding: .3em 0 0;
+		}
+	}
+
+	.wp-caption-text {
+		margin: .5em 0 .3em;
+	}
+}
+
+.post-meta,
+p.tags {
+	a {
+		&:hover {
+			color: darken( $color1, 10% );
+			text-decoration: none;
+		}
+	}
+}
+
+.post-more {
+	font-size: inherit;
+	@include clearfix;
+
+	.comments {
+		float: right;
+	}
+
+	.read-more {
+		float: left;
+
+		a {
+			&:after {
+				font-family: "FontAwesome";
+				content: "\f178";
+				font-weight: 400;
+				margin-left: .53em;
+			}
+		}
+	}
+}
+
+.post-meta,
+.post-more {
+	a {
+		&:hover {
+			color: darken( $color1, 10% );
+		}
+	}
+}
+
+#post-entries {
+	a {
+		background: #666;
+		color: #fff;
+		padding: .53em 1em;
+		border-radius: .327em;
+	}
+
+	.nav-prev,
+	.nav-next {
+		margin: 0 0 1.618em;
+	}
+
+	.nav-next {
+		a {
+			&:after {
+				margin-left: .327em;
+			}
+		}
+	}
+}
+
+#post-author {
+	border: 0;
+	border-radius: .327em;
+	background: #fff;
+	margin: .3em 0 0;
+	padding: 1.999em;
+	border: 2px solid #eee;
+
+	.profile-content {
+		font-size: inherit;
+	}
+
+	.profile-image {
+		.avatar {
+			margin: 0 1.999em 0 0;
+		}
+	}
+
+	h4 {
+		font-size: 1.414em;
+	}
+}
+
+#connect {
+	border: 0;
+	border-radius: 3px;
+	background: rgba(0,0,0,0.1);
+	padding: 1.999em;
+
+	.related-posts {
+		h4 {
+			font-size: 1.414em;
+		}
+	}
+}
+
+.subscribe-and-connect-connect {
+	border: 0;
+	border-radius: 3px;
+	background: rgba(0,0,0,0.1);
+	padding: 1.999em;
+}
+
+.woo-pagination {
+	a {
+		&:link,
+		&:visited,
+		&:active {
+			background: #fff;
+			border: 2px solid #eee;
+			color: $color1;
+			box-shadow: none;
+		}
+
+		&:hover {
+			border-color: #ccc;
+		}
+	}
+}
+
+// Sensei Integration Styling
+.sensei-course-participants {
+	color: #555;
+	margin-bottom: 1.618em;
+
+	&:before {
+		@include iconbefore( "\f0c0" );
+		margin-right: .53em;
+		color: $color1;
+	}
+}
+
+.send-message-button {
+	display: inline-block;
+	margin: 0 0 1.618em;
+}
+
+.course-container {
+	.archive-header {
+		h1 {
+			font-size: 1.618em;
+			margin: 0 0 1.387em;
+		}
+	}
+
+	.course {
+		margin-bottom: 3.631em;
+		padding: 0;
+		background: #fff;
+		border: 2px solid #eee;
+		border-radius: .327em;
+		@include box-sizing( border-box );
+
+		.course-content {
+			padding: 2.244em;
+
+			img {
+				padding: 0;
+				border: 0;
+				background: none;
+			}
+		}
+
+		h2 {
+			margin-bottom: .3em;
+			line-height: 1.387em;
+
+			a {
+				&:link,
+				&:visited {
+					color: $color1;
+				}
+			}
+		}
+
+		.sensei-course-meta {
+			color: #aaa;
+			font-style: italic;
+			font-size: .9em;
+		}
+
+		.course-excerpt {
+			margin-bottom: 0;
+		}
+
+		.entry {
+			p {
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		.sensei-course-participants {
+			margin: 0;
+			padding: .327em 0;
+		}
+
+		.sensei-view-course {
+			float: right;
+
+			.button {
+				padding-left: .75em;
+				padding-right: .75em;
+				font-weight: 600;
+			}
+		}
+
+		.sensei-free-lessons {
+			margin: 1.618em 0 0;
+		}
+
+		footer {
+			clear: both;
+			padding: 1.2em 2.244em;
+			overflow: hidden;
+			background: #F6F6F6;
+			border-color: #EEEEEE;
+			border-style: solid;
+			border-width: 2px 0 0 0;
+			font-size: .95em;
+
+			p {
+				margin: 0;
+				color: #555;
+			}
+
+			.sensei-course-participants {
+				float: left;
+			}
+
+			.sensei-view-course {
+				float: right;
+			}
+		}
+	}
+}
+
+.post-type-archive-course.paged {
+	.course-container {
+		.course {
+			padding: 2.244em;
+		}
+	}
+}
+
+.course {
+	padding: 0 0 1.387em;
+}
+
+.course-lessons {
+	header {
+		h2 {
+			margin-bottom: .618em;
+		}
+	}
+
+	.lesson {
+		margin: 0 0 2.244em;
+		padding: 1.618em;
+		border-width: 2px;
+		border: 2px solid #eee;
+		border-radius: .327em;
+
+		.lesson-meta {
+			margin: 0 0 1.387em;
+			font-style: italic;
+		}
+
+		.entry {
+			clear: none;
+
+			p {
+				&:last-child {
+					margin: 0;
+				}
+			}
+		}
+	}
+}
+
+.course-lessons,
+.module-lessons {
+	.lesson,
+	.module {
+		header {
+			h2 {
+				font-size: 1.387em;
+				line-height: 1.387em;
+				margin-bottom: .327em;
+
+				a {
+					&:link,
+					&:visited {
+						color: $color1;
+					}
+				}
+			}
+		}
+	}
+}
+
+.lesson-course {
+	margin: 0 0 1.618em;
+}
+
+.module-archive {
+	.module-lessons {
+		.lesson {
+			width: 100%;
+			float: none;
+			margin-bottom: 2.244em;
+
+			&:nth-child(2n+1) {
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+.module {
+	border-bottom: 2px solid #eee !important;
+	padding-bottom: 2.244em;
+	margin-bottom: 2.244em !important;
+	@include box-sizing( border-box );
+
+	header {
+		margin: 0 0 .8em !important;
+		background: none;
+
+		h2 {
+			padding: 0;
+			font-size: 1.387em;
+		}
+	}
+
+	.module-description {
+		background: none;
+		padding: 0;
+	}
+
+	.module-lessons {
+		margin: 1.618em 0 0;
+		border: 2px solid #eee;
+		border-radius: .327em;
+		@include box-sizing( border-box );
+
+		header {
+			border-top: 0 !important;
+		}
+
+		ul {
+			margin: 0 !important;
+
+			li {
+				&:last-child {
+					a {
+						border-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.module-status {
+		top: 0;
+	}
+}
+
+.tax-module {
+	.post-entries {
+		margin-top: 0;
+	}
+}
+
+#customer_login {
+	.form-row {
+		label {
+			margin-bottom: .327em;
+		}
+	}
+
+	.remember_me {
+		margin-bottom: 0;
+	}
+
+	h2 {
+		color: #aaa;
+		font-weight: normal;
+		margin-bottom: .618em;
+	}
+
+	.sensei-login-submit {
+		margin-bottom: .618em;
+
+		.button {
+			margin-right: .53em;
+		}
+	}
+}
+
+// Private Message
+#private_message {
+	margin: 0 0 1em;
+}
+
+.send-message-button {
+		&:before {
+			font-family: "FontAwesome";
+			content: "\f0e0";
+			font-weight: 400;
+			margin-right: .618em;
+		}
+}
+
+// Sensei Course Progress
+.meter {
+	border-radius: .327em;
+	overflow: hidden;
+
+	span {
+		background: $color1;
+	}
+}
+
+form[name="contact-teacher"] {
+	textarea {
+		height: 150px;
+		min-width: 100%;
+		margin: 0 0 1.618em;
+	}
+}
+
+// My Courses
+#my-courses {
+	.ui-tabs-nav {
+		margin: 2.244em 0;
+		border-bottom: 2px solid #eee;
+
+		li {
+			a {
+				display: inline-block;
+				padding: .857em 1em;
+				border-color: #eee;
+				border-style: solid;
+				border-width: 2px 2px 0 2px;
+				border-radius: .327em .327em 0 0;
+			}
+
+			&.ui-state-active {
+				a {
+					color: $color1;
+				}
+			}
+
+			&:first-child {
+				margin-left: 1em;
+			}
+		}
+	}
+
+	.course {
+		width: 100%;
+		float: none;
+		padding-bottom: 2.244em;
+		margin-bottom: 2.244em;
+		border-width: 0 0 2px;
+		border-radius: 0;
+
+		&:nth-child(2n+1) {
+			margin-left: 0;
+		}
+	}
+}
+
+.form-row {
+	label {
+		display: block;
+	}
+}
+
+.my-messages-link-container {
+	margin-top: 1.618em;
+
+	a {
+		@extend .button;
+		padding: .327em 1em;
+		border-radius: .327em;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		&:before {
+			font-family: "FontAwesome";
+			content: "\f0e0";
+			font-weight: 400;
+			margin-right: .618em;
+		}
+	}
+}
+
+@media only screen and ( min-width: $tablet ) {
+	form[name="contact-teacher"] {
+		.form-row {
+			width: 100%;
+			@include box-sizing( border-box );
+		}
+	}
+}
+
+// Single Course
+.single-course {
+	.course-meta {
+		.button {
+			background: #63a95f;
+
+			&:before {
+				font-family: "FontAwesome";
+				content: "\f07a";
+				font-weight: 400;
+				margin-right: .618em;
+			}
+		}
+	}
+}
+
+// Single Lesson
+.single-lesson {
+	.lesson {
+		.entry {
+			clear: both;
+		}
+	}
+}
+
+// Course Participants
+.widget_sensei_course_participants {
+	ul {
+		margin-top: 1.387em;
+
+		li {
+			h3 {
+				text-transform: none;
+			}
+		}
+	}
+}
+
+// Course Progress
+.widget_sensei_course_progress {
+	border: 2px solid #eee;
+
+	header {
+		padding: 1.387em 1.387em 0;
+
+		h2 {
+			font-size: 1.387em;
+		}
+
+		h3 {
+			text-transform: none;
+		}
+	}
+
+	.course-progress-lessons {
+		.course-progress-lesson {
+			a,
+			span {
+				padding: 0.618em 1.618em 0.618em 3.2em;
+				font-weight: normal;
+
+				&:before {
+					left: .618em;
+				}
+			}
+		}
+	}
+}
+
+.widget {
+	ul.course-progress-navigation {
+		li {
+			margin-bottom: 0;
+
+			a {
+				&:before,
+				&:after {
+					font-size: 1.387em;
+				}
+			}
+		}
+	}
+}
+
+// Tax Archive
+.tax-course-category {
+	.course-container {
+		.course {
+			margin: 0 0 40px;
+			padding: 0 0 40px;
+			width: 100%;
+			border-width: 0 0 2px 0;
+			border-radius: 0;
+
+			&:nth-child(2n+1) {
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+// Single Quiz
+.single-quiz {
+	.quiz {
+		li {
+			list-style-position: inside;
+			border-radius: .327em;
+
+			> span {
+				display: block;
+				margin: 0 0 1.387em;
+			}
+		}
+	}
+}
+
+#sensei-quiz-list {
+	padding: 0;
+
+	> li {
+		border-width: 2px;
+	}
+
+	> li ul {
+		padding: 0;
+	}
+}
+
+.question_media_display {
+	dl {
+		margin: 0 0 1em;
+
+		dt {
+			margin: 0 0 .236em;
+		}
+
+		dd {
+			font-size: .9em;
+			font-style: italic;
+		}
+	}
+
+	.mejs-container {
+		margin: 0 0 1.387em;
+	}
+
+	.image {
+		display: block;
+		margin: 0 0 1.387em;
+	}
+}
+
+.user_wrong {
+	color: #CC7D76;
+}
+
+.answer_message {
+	margin: 1em 0 1.387em !important;
+
+	&.has_notes {
+		span {
+			border-bottom: 0;
+			cursor: auto;
+		}
+	}
+
+	&.user_right {
+		background: #89b93f;
+		color: #fff;
+		border: 0;
+		padding-left: 3.631em;
+
+		&:before {
+			color: #fff;
+			background: none;
+		}
+	}
+
+	&.user_wrong {
+		background: #CC7D76;
+		color: #fff;
+		border: 0;
+		padding-left: 3.631em;
+
+		&:before {
+			color: #fff;
+			background: none;
+		}
+	}
+}
+
+.quiz {
+	div.sensei-message {
+		&.info {
+			margin: 1.387em 0 .327em 0;
+			padding-left: 3.631em;
+			border: 0;
+
+			&:before {
+				background: none;
+			}
+		}
+	}
+}
+
+.status {
+	margin: 0 0 1.618em;
+}
+
+//Messages
+.course-container,
+.course,
+.lesson,
+.learner-info {
+	p.sensei-message,
+	div.sensei-message {
+		clear: both;
+		@include message();
+		border: 0;
+		border-radius: 0;
+
+		&:before {
+			background: none;
+		}
+
+		&.medium {
+			padding: 1.387em 1.387em 1.387em  0;
+			font-size: 1.1em;
+		}
+
+		&.large {
+			padding: 1.387em 1.387em 1.387em 0;
+			font-size: 1.2em;
+		}
+
+		&.rounded {
+			@include border-top-radius(.202em);
+			@include border-bottom-radius(.202em);
+		}
+
+		a {
+			text-decoration: underline;
+			background: none;
+			padding: 0;
+
+			&:hover  {
+				text-decoration: none;
+			}
+		}
+
+		&.alert {
+			@include message("\f071", #CC7D76);
+			border: 0;
+			padding-left: 3.631em;
+
+			&:before {
+				content: "\f071";
+				background: none;
+			}
+
+			a {
+				color: darken( #CC7D76, 10%);
+
+				&:hover  {
+					color: darken( #CC7D76, 15%);
+				}
+			}
+		}
+
+		&.download,
+		&.tick {
+			@include message("\f019", $success);
+			border: 0;
+			padding-left: 3.631em;
+
+			&:before {
+				content: "\f019";
+				background: none;
+			}
+
+			a {
+				color: darken($success, 10%);
+
+				&:hover  {
+					color: darken($success, 15%);
+				}
+			}
+		}
+
+		&.tick {
+			&:before {
+				content: "\f00c";
+			}
+		}
+
+		&.info {
+			@include message("\f05a", #555);
+			border: 0;
+			padding-left: 3.631em;
+
+			&:before {
+				content: "\f05a";
+				background: none;
+			}
+
+			a {
+				color: darken($color_body, 10%);
+
+				&:hover {
+					color: darken($color_body, 15%);
+				}
+			}
+		}
+
+		&.note {
+			@include message("\f0f6", $info);
+			border: 0;
+			padding-left: 3.631em;
+
+			&:before {
+				content: "\f0f6";
+				background: none;
+			}
+		}
+
+		&.normal {
+			background: $bg_light;
+			padding: 1em 1.387em;
+		}
+
+		.view-quiz {
+			float: right;
+		}
+	}
+}
+
+// Share Your Grade
+.sensei-share-your-grade {
+	margin-top: 1.618em;
+
+	.sensei-share-your-grade {
+		margin-top: 1.387em;
+	}
+}
+
+// Misc
+.sensei-breadcrumb {
+	margin: .53em 0 1.618em 0;
+	padding: .618em 1em;
+	background: #eee;
+	border-radius: .327em;
+	border: 2px solid #eee;
+}
+
+.navigation {
+	margin: 0 0 2.618em;
+	clear: both;
+
+	a {
+		padding: .53em 1em;
+		border-radius: .327em;
+		text-decoration: none;
+
+		&:hover {
+			background: $color1 - #111;
+		}
+	}
+}
+
+// Homepage Page Template
+.page-template-template-homepage-php {
+
+	#logo {
+		&.with-alt-logo {
+			.logo {
+				display: none;
+			}
+
+			.logo-alt {
+				display: block;
+			}
+		}
+
+		.site-title {
+			a {
+				color: #fff;
+			}
+		}
+
+		.site-description {
+			color: #eee;
+		}
+	}
+
+	.fixed {
+		#logo {
+			&.with-alt-logo {
+				.logo {
+					display: block;
+				}
+
+				.logo-alt {
+					display: none;
+				}
+			}
+
+			.site-title {
+				a {
+					font: 700 1.5em/1.618 $headings;
+					color: #222;
+				}
+			}
+
+			.site-description {
+				color: #ccc;
+			}
+		}
+	}
+
+	#header {
+		background: none;
+		border-bottom: 2px solid rgba( 255, 255, 255, .15 );
+		margin: 0;
+	}
+
+	#header-container {
+		margin: 0;
+		background-color: transparent;
+		background-image: url(../images/hero.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+
+// Homepage
+.home-section {
+	padding: 3.631em 1.618em 1.618em;
+	border-bottom: 2px solid #eee;
+
+	&:last-child {
+		border-bottom: 0;
+	}
+
+ 	.section-title {
+ 		width: 55%;
+ 		margin: 0 auto 3.8em;
+ 		text-align: center;
+
+ 		h1 {
+ 			font-size: 2.244em;
+ 			font-weight: normal;
+ 			color: #333;
+ 			margin-bottom: .236em;
+ 		}
+
+ 		p {
+ 			font-size: 1.2em;
+ 			color: #aaa;
+ 		}
+ 	}
+}
+
+// Hero
+.home-section.hero {
+	padding-top: 3.631em;
+	padding-bottom: 3.631em;
+	@include box-sizing( border-box );
+	position: relative;
+	overflow: hidden;
+
+	h1 {
+		display: block;
+		margin: 0 0 .53em;
+		font-weight: 700;
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+		text-align: left;
+		width: 100%;
+	}
+
+	p {
+		display: inline;
+		color: #fff !important;
+		font-size: 1.387em;
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	}
+
+	.search_main {
+		margin: 2em 0 0;
+		width: 90%;
+
+		.searchform {
+			border: 0;
+			@include box-shadow( 1px, 1px, 0, 0, rgba( 0, 0, 0, .2) );
+
+			input.s {
+				padding: 1.15em 1.618em;
+				font-weight: 300;
+				font-size: 1.2em;
+				color: #bbb;
+				border-radius: 1px;
+			}
+
+			.fa-search {
+				&:before {
+					color: #7995BC;
+					font-size: 1.618em;
+				}
+			}
+
+			button.submit {
+				top: .95em;
+				right: 1.618em;
+			}
+		}
+	}
+}
+
+// Sensei
+.home-section.sensei {
+	@include clearfix;
+
+	.course {
+		clear: both;
+		padding: 0;
+		margin: 0 0 3em;
+		background: #fff;
+		overflow: hidden;
+		border: 2px solid #eee;
+		border-radius: .327em;
+
+		header {
+			h2 {
+				margin-bottom: .3em;
+				color: #222;
+			}
+		}
+
+		.sensei-course-meta {
+			color: #aaa;
+			font-style: italic;
+			font-size: .9em;
+			margin-bottom: 1em;
+		}
+
+		.sensei-course-participants {
+			padding: .327em 0;
+			color: #555;
+
+			&:before {
+				@include iconbefore( "\f0c0" );
+				margin-right: .53em;
+				color: $color1;
+			}
+		}
+
+		// Homepage course display
+		.sensei-course-image {
+			margin-bottom: 2.244em;
+
+			img {
+				float: none;
+				margin: 0;
+				padding: 0;
+				background: none;
+			}
+		}
+
+		.entry {
+			clear: none;
+		}
+
+		.sensei-course-content {
+			padding: 2.244em;
+			@include clearfix;
+		}
+
+		.sensei-course-categories {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+
+			li {
+				display: inline-block;
+				margin: 0 .327em 0 0;
+
+				a {
+					display: inline-block;
+					background: #aaa;
+					color: #fff;
+					padding: .327em .75em;
+					font-size: .857em;
+					border-radius: .327em;
+
+					&:hover {
+						text-decoration: none;
+						background: #999;
+					}
+				}
+			}
+		}
+
+		footer {
+			padding: 1.2em 2.244em;
+			overflow: hidden;
+			background: #F6F6F6;
+			border-color: #EEEEEE;
+			border-style: solid;
+			border-width: 2px 0 0 0;
+			font-size: .95em;
+
+			p {
+				margin: 0;
+				color: #555;
+			}
+
+			.sensei-course-participants {
+				float: left;
+			}
+
+			.sensei-view-course {
+				float: right;
+
+				.button {
+					padding-left: .75em;
+					padding-right: .75em;
+					font-weight: 600;
+				}
+			}
+		}
+	}
+}
+
+// Testimonials
+.home-section.testimonials {
+	.widget_woothemes_testimonials {
+		margin: 0;
+
+		.quote {
+			background: #fff;
+			border: 2px solid #eee;
+			padding: 2.244em;
+			margin-bottom: 1em;
+			overflow: hidden;
+			border-radius: .327em;
+			@include box-sizing( border-box );
+
+			.avatar {
+				float: left;
+				margin: 0 2.244em 1em 0;
+				padding: .236em;
+				border-radius: 100%;
+				border: 2px solid #eee;
+				width: 120px;
+				height: 120px;
+				-webkit-animation-duration: 2s;
+				-moz-animation-duration: 2s;
+				animation-duration: 2s;
+				@include box-sizing( border-box );
+			}
+
+			blockquote {
+				p {
+					font-style: italic;
+				}
+			}
+
+			cite {
+				.title {
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+}
+
+// Recent Posts
+.home-section.recent-posts {
+	article {
+		margin: 0 0 2.244em;
+		padding: 2.244em;
+		background: #fff;
+		border: 2px solid #eee;
+		border-radius: .327em;
+		@include box-sizing( border-box );
+
+		h1 {
+			font-size: 1.414em;
+			margin: 0 0 .25em;
+			color: #222;
+
+			a {
+				&:link,
+				&:visited {
+					color: $color1;
+				}
+			}
+		}
+
+		p.meta {
+			color: #aaa;
+			font-style: italic;
+			font-size: .9em;
+			margin-bottom: 1.387em;
+		}
+
+		p {
+			margin-bottom: 15px;
+		}
+	}
+}
+
+@media only screen and ( max-width: $tablet - 1 ) {
+	#content {
+		padding-top: 0;
+	}
+}
+
+@media only screen and ( min-width: $tablet ) {
+
+	.col-full,
+	#wrapper {
+		max-width: 980px;
+	}
+
+	#wrapper {
+		padding: 0 4.236em;
+	}
+
+	// Full Width Layout
+	body.full-width #header,
+	#nav-container,
+	body.full-width #footer-widgets,
+	body.full-width #footer {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	body.full-width #content {
+		padding-left: 2.618em;
+		padding-right: 2.618em;
+	}
+
+	#content {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.page-template-template-homepage-php,
+	.post-type-archive-lesson,
+	.post-type-archive-course,
+	.sensei-courses-page {
+		#content {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	// Adjust main/sidebar width
+	.two-col-left,
+	.two-col-right {
+		#main-sidebar-container {
+			#main {
+				width: 70%;
+			}
+
+			#sidebar {
+				width: 25%;
+			}
+		}
+	}
+
+	#main {
+		padding-top: 0;
+	}
+
+	#logo {
+		float: left;
+		text-align: left;
+	}
+
+	#nav-container {
+		margin: 0;
+		float: right;
+	}
+
+	#header {
+		position: relative;
+		margin: 0 0 3.631em;
+		width: 100%;
+		max-width: 100% !important;
+		padding: 2.244em 0;
+		@include transition;
+
+		&.fixed {
+			position: fixed;
+			top: 0;
+			left: 0;
+			padding-top: 1em;
+			padding-bottom: 1em;
+			background: rgba( 255, 255, 255, .95 );
+			z-index: 9999;
+			border: 0;
+			@include box-shadow(0, 2px, 10px, 0, rgba(0, 0, 0, 0.05));
+		}
+	}
+
+	#header-container {
+		margin-bottom: 0;
+	}
+
+	body.admin-bar {
+		#header.fixed {
+			top: 32px;
+		}
+	}
+
+	#navigation {
+		background: none;
+		margin: 0 0 4.236em;
+		padding: 0;
+		max-width: none;
+		width: auto;
+
+		ul.nav {
+			float: none;
+			margin: 0 !important;
+
+			li {
+				float: none;
+				display: inline-block;
+
+				a {
+					display: block;
+					color: #bbb;
+					padding-top: .53em !important;
+					padding-bottom: .53em !important;
+					padding-left: 1em;
+					padding-right: 1em;
+					font-size: 1.1em;
+				}
+
+				&.parent {
+					a {
+						&:after {
+							margin-top: 0;
+							position: relative;
+							top: -2px;
+						}
+					}
+
+					&:hover {
+						background: none;
+
+						a {
+							background: none;
+						}
+					}
+				}
+
+				&.current_page_item,
+				&.current_page_parent,
+				&.current-menu-ancestor,
+				&.current-cat,
+				&.current-menu-item {
+					a {
+						background: none;
+						color: #bbb;
+						border-color: #ccc !important;
+					}
+				}
+			}
+
+			ul {
+				left: 0;
+				background: none;
+				text-align: left;
+				padding-top: 1em;
+				margin-top: -1px;
+
+				li {
+					display: block;
+					background: #fff;
+					border-width: 0 2px 2px 2px;
+					border-color: #ccc;
+					border-style: solid;
+
+					&:first-child {
+						border-width: 2px;
+						border-radius: 0 !important;
+
+						a {
+							border-radius: 0 !important;
+						}
+					}
+
+					a {
+						color: #bbb !important;
+						border: 0;
+						font-size: .957em;
+					}
+				}
+			}
+
+			> li {
+				&:hover {
+					background: none;
+
+					> a {
+						background: none;
+						color: #bbb;
+						border-color: #ccc !important;
+					}
+				}
+
+				> a {
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: -1px;
+					border: 2px solid transparent !important;
+					border-radius: .327em !important;
+
+					&:hover {
+						color: #bbb;
+						background: none;
+						border-color: #ccc !important;
+					}
+				}
+			}
+		}
+
+		ul.rss {
+			li {
+				a {
+					color: #fff;
+
+					&:before {
+						line-height: 3.1;
+					}
+				}
+			}
+		}
+
+		.widget {
+			p {
+				color: #7f868a;
+			}
+		}
+	}
+
+	.full-width {
+		#navigation {
+			ul li:first-child {
+				border-radius: .327em !important;
+
+				a {
+					border-radius: .327em !important;
+				}
+			}
+		}
+	}
+
+	#connect {
+		.related-posts {
+			border: 0;
+			padding: 0;
+		}
+	}
+
+	#footer {
+		.col-left {
+			margin: 0;
+		}
+	}
+
+	#footer-widgets {
+		padding-top: 3.631em;
+		padding-bottom: 1.618em;
+		margin: 0;
+
+		.block {
+			padding-top: 0;
+		}
+	}
+
+	#footer-container {
+		#footer {
+			border: 0;
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	// Homepage Page Template
+	.page-template-template-homepage-php {
+
+		#nav-container {
+			margin: 0;
+			background: none;
+		}
+
+		#navigation {
+			background: none;
+			margin-bottom: 0;
+
+			ul.nav {
+				li {
+					&.parent {
+						a {
+							&:after {
+								color: #fff;
+							}
+						}
+					}
+				}
+
+				> li {
+					&:hover {
+						color: #fff;
+						background: none;
+
+						> a {
+							background: none;
+							color: #fff;
+							border-color: #fff !important;
+						}
+					}
+
+					> a {
+						color: #fff;
+						text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+
+						&:hover {
+							color: #fff;
+							background: none;
+							border-color: #fff !important;
+						}
+					}
+				}
+			}
+		}
+
+		.fixed {
+			#navigation {
+				ul.nav {
+					li {
+						&.parent {
+							a {
+								&:after {
+									color: #ccc;
+								}
+							}
+						}
+					}
+
+					> li {
+						&:hover {
+							color: #bbb;
+							background: none;
+
+							> a {
+								background: none;
+								color: #bbb;
+								border-color: #ccc !important;
+							}
+						}
+
+						> a {
+							color: #bbb;
+							text-shadow: none;
+
+							&:hover {
+								color: #bbb;
+								background: none;
+								border-color: #ccc !important;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// Sensei
+	.course-container {
+		.course {
+			width: 47.5%;
+			float: left;
+			clear: none;
+			clear: left;
+
+			&:nth-child(2n+1) {
+				margin-left: 5%;
+				clear: right;
+			}
+		}
+	}
+
+	// Homepage
+	.home-section {
+		padding-top: 5.5em;
+		padding-bottom: 5.5em;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	// Hero
+	.home-section.hero {
+		padding: 9.505em 0 11.089em;
+
+		.hero-container {
+			width: 55%;
+		}
+	}
+
+	// Sensei
+	.home-section.sensei {
+		.course {
+			clear: none;
+
+			.sensei-course-image {
+				float: left;
+				margin-bottom: 2.244em;
+				margin-right: 2.244em;
+				border-radius: .327em;
+			}
+
+			&.first,
+			&.last {
+				width: 47.5%;
+				float: left;
+				margin-bottom: 0;
+
+				.sensei-course-image {
+					margin-bottom: 1em;
+					margin-right: 1.618em;
+				}
+			}
+
+			&.first {
+				margin-right: 4%;
+			}
+		}
+	}
+
+	#my-courses {
+		.col-1 {
+			width: 49%;
+			float: left;
+		}
+	}
+
+	// Testimonials
+	.home-section.testimonials {
+		.widget_woothemes_testimonials {
+			margin: 0 6.854em;
+
+			.quote {
+				padding: 0 0 2.618em;
+				margin: 0 0 2.618em;
+				border: 0;
+				background: none;
+				border-radius: 0;
+
+				.avatar {
+					float: none;
+					margin: 0;
+				}
+
+				.avatar-link {
+					position: relative;
+					padding: 0 2.618em 2.618em 0;
+					float: left;
+
+					&:after {
+						position: absolute;
+						content: ' ';
+						width: 0;
+						height: 0;
+						border-style: solid;
+						border-width: .53em .857em .53em 0;
+						border-color: transparent #eee transparent transparent;
+						right: 0;
+						top: 3.631em;
+					}
+				}
+
+				&:nth-of-type(n+2) {
+					margin-bottom: 0;
+					padding-bottom: 0;
+
+					.avatar-link {
+						float: right;
+						padding: 0 0 2.618em 2.618em;
+
+						&:after {
+							content: none;
+						}
+						&:before {
+							position: absolute;
+							content: ' ';
+							width: 0;
+							height: 0;
+							border-style: solid;
+							border-color: transparent transparent transparent #eee;
+							border-width: .53em 0 .53em .857em;
+							left: 0;
+							top: 3.631em;
+						}
+					}
+
+					blockquote {
+						margin-bottom: 0 !important;
+					}
+				}
+
+				blockquote {
+					background: #fff;
+					border: 2px solid #eee;
+					padding: 2.244em !important;
+					margin-bottom: 1em !important;
+					overflow: hidden;
+					border-radius: .327em;
+				}
+			}
+		}
+	}
+
+	// Recent Posts
+	.home-section.recent-posts {
+		article {
+			margin: 0;
+			width: 30%;
+			float: left;
+
+			&.first {
+				margin-right: 5%;
+			}
+
+			&.last {
+				margin-left: 5%;
+			}
+		}
+	}
+}
+
+@media only screen and ( min-width: 980px ) {
+}

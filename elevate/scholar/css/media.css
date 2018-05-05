@@ -1,0 +1,2173 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 2000px) {
+	
+	/*body{
+		border:1px solid yellow;
+	}*/
+	
+}
+@media screen and (max-width: 1500px) {
+	/*body{
+		border:1px solid magenta;
+	}*/
+}
+@media screen and (max-width: 1350px) {
+	/*body{
+		border:1px solid black;
+	}*/
+	
+}
+@media screen and (max-width: 1300px) {
+	/*body{
+		border:1px solid red;
+	}*/
+	
+	
+	
+}
+
+@media screen and (max-width: 1250px) {
+	/*body{
+		border:1px solid magenta;
+	}*/
+	
+.wrapper {
+    margin: 0 2%;
+    width: auto;
+}
+
+.course-detailLeft {
+    padding: 0 30px 0 0;
+    width: 770px;
+}
+
+.course-detailRight {
+    margin-left: 30px;
+    width: 300px;
+}
+
+.progress-rt {
+    width: 360px;
+}
+
+#edit-account .com .lt_account input[type="text"], #edit-account .com .rt_account input[type="text"] {
+    width: 95.5%;
+}
+
+#edit-account .com input[type="email"], #edit-account .com input[type="password"] {
+    width: 97.5%;
+}
+
+.boarddirectorleft  {
+    padding: 0 30px 0 0;
+    width: 770px;
+}
+
+.boarddirectorright{
+    margin-left: 30px;
+    width: 300px;
+}
+
+.boarddirector-video {
+    width: 100%;
+	}
+.glossary-left{
+	width:66.4%;
+}
+.footerSec{
+	max-width:inherit !important;
+	margin:0 2% !important;
+}
+#header{
+	max-width:inherit !important;
+	width:auto;
+	padding:15px 2% !important;
+}
+#header.fixed{
+	right:0;
+}
+#header .col-full, #content.col-full, .top-footer .col-full, #footer{
+	width:auto;
+	max-width:inherit !important;
+}
+.top-footer .col-full, #footer{
+	padding-left:2% !important;
+	padding-right:2% !important;
+}
+#content.col-full{
+	padding-left:1% !important;
+	padding-right:1% !important;
+}
+#content .col-full, #content #wrapper{
+	width:auto;
+	max-width:inherit !important;
+	padding:0 1%;
+}
+.single-lesson .wrapper.single-lesson-main{
+	margin:0 0 50px;
+	width:68.8%;
+}
+.single-lesson .widget_sensei_course_progress{
+	width:280px;
+	float:right;
+}
+	
+}
+	
+@media screen and (max-width: 1200px) {
+	/*body{
+		border:1px solid blue;
+	}*/
+	
+	.course-detailLeft {
+   padding: 0 20px 0 0;
+    width: 744px;
+	}
+	
+	.course-detailRight {
+    margin-left: 20px;
+    width: 300px;
+	}
+	
+	.videoSec li {
+    width: 360px;
+	}
+	
+	.videoSec li img{
+		width:100%;
+		}
+		
+	.progress-lt {
+    width: 750px;
+	}
+	
+	
+	.progress-rt {
+    width: 330px;
+	}
+	
+	.boarddirectorleft  {
+    padding: 0 20px 0 0;
+    width: 744px;
+}
+
+.boarddirectorright{
+     margin-left: 20px;
+    width: 300px;
+}
+
+.intro-mod-list ul li {
+    font-size: 22px;
+	}
+	.glossary-left{
+	width:64.9%;
+}
+.subscription-type li .left-cont{
+	width: 85%;
+}
+.email-txt{
+	  width: 48%;
+}
+.single-lesson .wrapper.single-lesson-main{
+	width:67.5%;
+}
+.col-full.addCertUsers {
+	width: 80%;
+	margin: 0 auto;
+}
+}
+@media screen and (max-width: 1150px) {
+	/*body{
+		border:1px solid pink;
+	}*/
+	
+	.course-detailLeft {
+    width: 720px;
+	}
+	
+	
+	.course-detailRight {
+    width: 270px;
+}
+
+
+
+
+.programsList li img {
+    margin-right: 10px;
+}
+
+.programsList li .rightSec h3 {
+    font-size: 17px;
+}
+	
+	.programsList li .rightSec p {
+    font-size: 14px;
+	
+}
+
+.course-detailLeft p { 
+    font-size: 14px;
+}
+
+.videoSec li {
+    width: 350px;
+}
+
+#support .com textarea {
+    width: 97.9%;
+}
+
+.progress-lt {
+    width: 730px;
+}
+
+.progress-rt {
+    width: 305px;
+}
+
+
+	.boarddirectorleft  {
+    width: 720px;
+}
+
+.boarddirectorright{
+     width: 270px;
+}
+
+.modsList li {
+    font-size: 17px;
+	}
+	.glossary-left{
+	width:63.4%;
+}
+
+.conclusion-wrapper{
+	margin:0 90px;
+}
+#navigation ul.nav li:first-child{
+	margin-right:5px;
+}
+#main-nav li#menu-item-7733 a, #main-nav li#menu-item-7870 a, #main-nav li#menu-item-26 a, #main-nav li#menu-item-7787 a{
+	padding:6px 15px !important;
+}
+#navigation ul.nav li:first-child a{
+	padding:4px 5px !important;
+}
+#navigation ul.nav li:last-child{
+	margin-right:0;
+}
+.logo img{
+	width:240px;
+}
+.single-lesson .wrapper.single-lesson-main{
+	width:66%;
+}
+
+}
+@media screen and (max-width: 1100px) {
+/*	body{
+		border:1px solid green;
+	}*/
+	
+	.course-detailLeft {
+    width: 660px;
+	}
+	
+	.course-detailRight {
+    width: 260px;
+	}
+	
+	
+		
+	
+	.videoSec li {
+    width: 320px;
+	}
+	
+	.programsList li .rightSec h3 {
+    font-size: 16px;
+	}
+	
+	
+.moduleHeading .complete {
+    background: #70c9d1 url("../images/completed_icon.png") no-repeat scroll 13px 12px;
+    padding: 0 20px 0 35px;
+}
+
+.moduleHeading h4 {
+    font-size: 20px;
+}
+
+#support .com textarea {
+    width: 97.7%;
+}
+
+.progress-lt {
+    width: 700px;
+}
+
+.progress-rt {
+    width: 260px;
+}
+
+.boarddirectorleft  {
+    width: 660px;
+}
+
+.boarddirectorright{
+     width: 260px;
+}
+
+.intro-mod-list ul li {
+    font-size: 20px;
+}
+
+.modsList li {
+    font-size: 16px;
+}
+.glossary-left{
+	width:60.5%;
+}	
+.single-lesson .wrapper.single-lesson-main{
+	width:63.5%;
+}
+
+}
+@media screen and (max-width: 1024px) {
+	/*body{
+		border:1px solid orange;
+	}*/
+	
+	.course-detailLeft {
+    padding: 0;
+    width: 100%;
+	border-right: 0;
+	}
+	
+	.course-detailRight {
+    margin: 0 0 100px 0;
+    width: 100%;
+	}
+	
+
+	
+	.videoSec li {
+    width: 460px;
+	}
+	
+	.course-title {
+    font-size: 24px;
+	}
+	
+	.course-detailLeft p {
+    font-size: 13px;
+	}
+	
+	.course-detailLeft h3.small {
+    font-size: 14px;
+	}
+	
+	.scrollBar {
+    margin-top: 20px;
+	}
+	
+	.course-detailLeft p {
+    margin-bottom: 7px;
+	}
+	.course-detailLeft h3 {
+    font-size: 22px;
+	}
+	
+	
+	.moduleHeading {
+		padding: 12px 20px 11px;
+	}
+	
+	.moduleHeading h4 {
+    font-size: 18px;
+    line-height: 38px;
+	}
+	
+	
+.modules ul.list li {
+    font-size: 15px;
+}
+
+.main-title {
+    font-size: 30px;
+}
+
+.support-txt {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+#support .com input[type="text"] {
+    font-size: 16px;
+}
+
+#support .com input[type="submit"] {
+    font-size: 23px;
+}
+
+#support .com textarea {
+    width: 97.6%;
+}
+
+.myaccount-blockarea h2 {
+    font-size: 31px;
+    line-height: 36px;
+	}
+	
+.progress-lt {
+    float: none;
+    width: 100%;
+}
+
+.progress-rt {
+    float: none;
+    width: 100%;
+}
+
+
+.continue_link {
+    margin: 30px 0 0;
+}
+
+.progress-rt {
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 31px;
+    line-height: 36px;
+}
+
+.progress h3 {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.progress-lt h4 {
+    font-size: 17px;
+}
+
+.progress-lt h5 {
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.progress-lt p {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#edit-account .com .lt_account input[type="text"], #edit-account .com .rt_account input[type="text"] {
+    height: 54px;
+}
+
+#edit-account .com input[type="email"], #edit-account .com input[type="password"] {
+    height: 54px;
+}
+
+#edit-account input[type="submit"] {
+    font-size: 22px;
+    height: 47px;
+}
+
+#edit-account label {
+    font-size: 15px;
+    line-height: 16px;
+}
+
+#edit-account h4 {
+    font-size: 19px;
+    line-height: 23px;
+}
+
+.login-logo {
+    width: 430px;
+}
+
+#login {
+    width: 550px;
+}
+
+#login input[type="submit"] {
+    background-position: 30px center;
+    background-size: 9% auto;
+    font-size: 22px;
+    height: 50px;
+    padding-left: 19px;
+    width: 172px;
+}
+
+#login p.forgot-password {
+    font-size: 15px;
+}
+
+#login input[type="text"], #login input[type="password"] {
+    font-size: 17px;
+}
+
+#edit-account .com .lt_account input[type="text"], #edit-account .com .rt_account input[type="text"] {
+    font-size: 16px;
+}
+
+#edit-account .com input[type="email"], #edit-account .com input[type="password"] {
+	font-size: 16px;
+	}
+	
+	
+	
+.boarddirectorleft  {
+    padding: 0;
+    width: 100%;
+	border-right: 0;
+}
+
+.boarddirectorright{
+    margin: 0 0 100px 0;
+    width: 100%;
+}
+
+.boarddirectorleft h2{
+    font-size: 28px;
+	}
+	
+.intro-board-list p {
+ font-size: 14px;
+    line-height: 16px;
+}
+	
+ .intro-board-list li{
+    font-size: 14px;
+    line-height: 16px;
+	
+}
+
+.intro-mod-list ul li {
+    font-size: 18px;
+	padding: 10px 20px;
+}
+
+.boarddirectorright h2 {
+    color: #002d62;
+    font-size: 20px;
+	margin-bottom: 22px;
+	}
+	
+.modsList li {
+    font-size: 15px;
+}
+
+a.Governance-btn {
+    font-size: 12px;
+    line-height: 19px;
+	}
+	
+a.Governance-rt-btn {
+    font-size: 12px;
+    line-height: 19px;
+	}
+	
+.ContactTeacher-container a {
+    font-size: 17px;
+	}
+	
+
+.congrat-gray-box p {
+    font-size: 14px;
+	}
+	
+.board-regulation-sec h3 {
+    font-size: 20px;
+    line-height: 26px;
+	}
+	
+
+.board-regulation-sec h4.incorrect-txt {
+    font-size: 16px;
+	}
+	
+.true-false {
+    font-size: 16px;
+    line-height: 17px;
+	}
+	
+.boarddirectorleft p {
+    font-size: 15px;
+    line-height: 24px;
+	}
+	
+.boarddirectorleft p {
+    font-size: 14px;
+	}
+	
+.boarddirectorleft h3 {
+    font-size: 20px;
+	}
+	
+	
+.responsible-include-list li {
+    font-size: 15px;
+    line-height: 18px;
+	}
+	
+.comment-area h3 {
+    font-size: 20px;
+	}
+	
+.comment-log-txt {
+    font-size: 15px;
+    line-height: 16px;
+	}
+	
+#comment-form input[type="submit"] {
+    font-size: 13px;
+	}
+	.glossary-left{
+	width:100%;
+	padding:0;
+	border:none;
+	float:none;
+	overflow:hidden;
+	margin:0 0 40px;
+}
+.glossary-right{
+	width:100%;
+	float:none;
+	overflow:hidden;
+	padding:0 0 50px;
+	margin:0;
+}
+.alph-list{
+	text-align:center;
+}
+.alph-list li{
+	display:inline-block;
+	margin:0 5px 0 0;
+}
+.alph-list li:last-child{
+	margin:0;
+}
+.glos-search {
+    margin: 0 auto 15px;
+    overflow: hidden;
+    width: 298px;
+}
+
+.month{
+	width:20% !important;
+}
+
+.cvv{
+	width:40% !important;
+}
+
+.conclusion-wrapper{
+	margin:0 40px;
+}
+.logo img{
+	width:180px;
+}
+.page h2.title{
+	font-size:30px;
+	line-height:36px;
+	margin:0 0 30px;
+}
+#my-courses .ui-tabs-nav li{
+	margin-right:4px !important;
+}
+#my-courses .ui-tabs-nav li:first-child{
+	margin-left:4px !important;
+}
+.sensei h1{
+	font-size:28px;
+	line-height:34px;
+}
+#footer .col-left, #footer .col-right{
+	text-align:center;
+}
+.myaccount{
+	padding:25px 15px;
+}
+.myaccount h2{
+	font-size:30px;
+	line-height:36px;
+	margin:0 0 10px;
+}
+.glossary-list{
+	padding:0;
+}
+.single-lesson .wrapper.single-lesson-main{
+	border:none;
+    margin: 0 0 20px;
+    padding: 0;
+    width: auto;
+}
+.single-lesson .video{
+	margin:0 !important;
+}
+.single-lesson .widget_sensei_course_progress{
+	width:auto;
+	float:none;
+	margin:0;
+}
+.field-wrap input[type="text"]{
+	font-size:16px;
+	height:46px;
+}
+#ninja_forms_field_3_div_wrap textarea{
+	font-size:16px;
+}
+#loginform{
+	margin:20px auto 0 !important;
+	display:block;
+}
+.login #nav{
+	display:block !important;
+}
+.login #nav a{
+	display:inline-block !important;
+	vertical-align:top;
+}
+}
+@media screen and (max-width: 1000px) {
+	/*body{
+		border:1px solid purple;
+	}*/
+	
+	.videoSec li {
+    width: 430px;
+	}
+	
+	#support .com textarea {
+    width: 97.5%;
+}
+
+.conclusion-wrapper{
+	margin:0 30px;
+}	
+	
+	
+}
+@media screen and (max-width: 950px) {
+	/*body{
+		border:1px solid grey;
+	}*/
+	
+	.videoSec li {
+    width: 410px;
+	}
+	
+	.scrollBar {
+    background-size:100%;
+	}
+	
+	#support .com {
+    overflow: hidden;
+    padding: 0 0 20px;
+}
+
+#support .com textarea {
+    width: 97.3%;
+}
+
+#edit-account .com .lt_account input[type="text"], #edit-account .com .rt_account input[type="text"] {
+    width: 95.3%;
+}
+
+#edit-account .com input[type="email"], #edit-account .com input[type="password"] {
+    width: 97.3%;
+}
+
+#support .com input[type="text"] {
+    width: 46%;
+	}
+	
+.subscription-type li .left-cont{
+	width: 82%;
+}
+
+.conclusion-wrapper{
+	margin:0 30px;
+}	
+	
+}
+@media screen and (max-width: 900px) {
+	/*body{
+		border:1px solid brown;
+	}*/
+	
+	.videoSec li {
+    width: 385px;
+	}
+	
+	#support .com textarea {
+    width: 97.2%;
+	}
+	
+	.conclusion-wrapper{
+	margin:0 20px;
+}
+	
+}
+@media screen and (max-width: 850px) {
+	/*body{
+		border:1px solid black;
+	}*/
+	
+	.videoSec li {
+    width: 360px;
+	}
+	
+	.logo {
+    width: 267px;
+	}
+	
+	.nav li.dashboard a {
+    font-size: 13px;
+    padding: 0 10px;
+	}
+	
+	.nav li.dashboard {
+    margin-right: 28px;
+	}
+	
+	#support .com textarea {
+    width: 97%;
+}
+
+.lt-img {
+    float: none;
+	}
+
+.responsible-include-list {
+    float: none;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.responsible-include-list li {
+    font-size: 15px;
+    line-height: 22px;
+	width:100%;
+}
+
+.sub-title{
+	font-size:28px;
+}
+
+	.conclusion-wrapper{
+	margin:0 10px;
+}
+#logo {
+    float: none;
+    overflow: hidden;
+    text-align: center;
+}
+#nav-container {
+    float: none;
+    padding: 15px 0 0;
+    text-align: center;
+	margin:0;
+}
+	
+}
+@media screen and (max-width: 800px) {
+	/*body{
+		border:1px solid red;
+	}
+	*/
+	.videoSec li {
+    width: 350px;
+	}
+	
+	.subscription-type li .left-cont {
+    width: 78%;
+}
+	
+}
+@media screen and (max-width: 767px) {
+	/*body{
+		border:1px solid yellow;
+	}*/
+	
+	.outer-wrapper {
+    margin-top: 50px;
+	}
+	
+	.videoSec li {
+    width: 47%;
+	}
+	
+	.logo {
+    width: 247px;
+	}
+	
+	.nav li {
+    font-size: 12px;
+	}
+	
+	.nav li.dashboard {
+    margin-right: 18px;
+	}
+	
+	.nav li.dashboard a {
+    font-size: 12px;
+	}
+	
+	.nav li.myaccount {
+    width: 116px;
+	}
+	
+	.nav li.myaccount a {
+    background: #70c9d1 url("../images/arrow-my-account.png") no-repeat scroll 93px center;
+    padding: 0 0 0 14px;
+	}
+	
+	.nav li.log-out {
+    width: 76px;
+	}
+	
+	.course-title {
+    font-size: 21px;
+	line-height: 30px;
+	}
+	
+	.course-detailLeft h3.small {
+    font-size: 13px;
+	}
+	
+	.course-detailLeft h3 {
+    font-size: 20px;
+	margin-bottom: 20px;
+	}
+	
+	.moduleHeading h4 {
+    font-size: 16px;
+    line-height: 36px;
+	float:none;
+	}
+	
+	
+	
+	.moduleHeading .complete {
+    background: #70c9d1 url("../images/completed_icon.png") no-repeat scroll 13px 16px / 9% auto;
+    padding: 0 20px 0 29px;
+	font-size: 13px;
+	float:left;
+	}
+	
+	
+.modules ul.list li {
+    background-position: 20px 13px;
+    padding: 14px 0 14px 57px;
+	font-size: 14px;
+}
+
+.support-link {
+    float:none;
+	text-align:center;
+}
+
+.footer-logo {
+    width: 234px;
+}
+
+#support .com input[type="text"] {
+    width: 97%;
+	float:none;
+	 height: 48px;
+	 display: block;
+    margin-left: auto;
+	margin-right: auto;
+	padding: 0 0 0 12px;
+	font-size: 16px;
+}
+
+
+#support .com input[type="text"]:last-child {
+    float: none;
+    margin-top: 20px;
+	display: block;
+   margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#support .com textarea {
+    height: 78px;
+	width: 97%;
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	padding: 5px 0 0 12px;
+}
+
+#support .com input[type="submit"] {
+    font-size: 20px;
+}
+
+.total-body {
+    margin-bottom: 185px;
+}
+
+.footer {
+    height: 185px;
+    margin-top: -185px;
+}
+
+	.copyright {
+    float:none;
+	text-align:center;
+	margin-bottom: 5px;
+	font-size: 12px;
+	}
+	
+	.credit{
+		float:none;
+	text-align:center;
+	font-size: 12px;
+		}
+		
+
+		
+	.myaccount-blockarea h2 {
+		font-size: 29px;
+		line-height: 34px;
+	}
+	
+	.myaccount-blockarea p {
+    font-size: 13px;
+    line-height: 20px;
+	}
+	.title {
+    font-size: 29px;
+    line-height: 34px;
+	}
+	
+	.progress h3 {
+    font-size: 20px;
+    line-height: 28px;
+	}
+	
+	
+	.progress-lt h4 {
+		font-size: 16px;
+	}
+	
+	.progress-lt p {
+    font-size: 13px;
+    line-height: 14px;
+	}
+	
+	.continue_link {
+    font-size: 13px;
+    height: 39px;
+    line-height: 39px;
+	}
+	
+	.c100 > span {
+    font-size: 20px;
+    width: 113px;
+	}
+	
+	.complete-circle {
+    background-size:3% auto;
+    line-height: 21px;
+    padding-left: 35px;
+	height: 21px;
+	}
+	
+	#edit-account .com .lt_account {
+    float: none;
+    overflow: hidden;
+    width: 100%;
+	margin-bottom: 30px;
+	}
+	
+	#edit-account .com .rt_account {
+    float: none;
+    overflow: hidden;
+    width: 100%;
+	}
+	
+	#edit-account label {
+    font-size: 14px;
+    line-height: 15px;
+	}
+	
+	#edit-account .com .lt_account input[type="text"], #edit-account .com .rt_account input[type="text"] {
+    height: 50px;
+	padding: 0 1%;
+	 width: 97.3%;
+	}
+	
+	
+    
+	
+	#edit-account .com input[type="email"], #edit-account .com input[type="password"] {
+    height: 50px;
+	}
+	
+	#edit-account h4 {
+    font-size: 18px;
+	}
+	
+	#edit-account input[type="submit"] {
+    font-size: 20px;
+    height: 44px;
+    padding: 0 40px;
+	}
+	
+	.login-logo {
+    width: 390px;
+	}
+	
+	#login {
+    width: 530px;
+	}
+	
+	#login input[type="text"], #login input[type="password"] {
+    font-size: 15px;
+    height: 48px;
+	}
+	
+	#login input[type="submit"] {
+    background-size: 8% auto;
+    height: 45px;
+    width: 152px;
+	}
+	
+	#login p.forgot-password {
+    font-size: 14px;
+	}
+	
+	.login-footer {
+    height: 68px;
+    margin-top: -68px;
+	}
+	
+	.login-bg .total-body {
+    margin-bottom: 68px;
+	}
+	
+	.myaccount-blockarea {
+    padding: 26px 20px;
+	}
+	
+	#edit-account .com .lt_account input[type="text"], #edit-account .com .rt_account input[type="text"] {
+    font-size: 14px;
+}
+
+#edit-account .com input[type="email"], #edit-account .com input[type="password"] {
+	font-size: 14px;
+	}
+	
+	
+.login-bg {
+    background-position:center 95%;
+}
+
+.boarddirectorleft h2 {
+    font-size: 25px;
+}
+
+a.inProgress {
+    font-size: 12px;
+    line-height: 33px;
+	}
+	
+
+.intro-board-list p {
+    font-size: 13px;
+    line-height: 14px;
+}
+
+.intro-board-list li {
+font-size: 13px;
+    line-height: 14px;
+}	
+
+.intro-mod-list ul li {
+    font-size: 16px;
+    padding: 7px 20px;
+}
+
+.boarddirectorright h2 {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.modsList li {
+    margin-bottom: 10px;
+	 font-size: 14px;
+	}
+	
+.back-to-box span {
+    font-size: 14px;
+	line-height: 24px;
+	}
+	
+.back-to-box-breadcrumb li a {
+    font-size: 14px;
+	}
+	
+.ContactTeacher-container a {
+    font-size: 15px;
+}
+
+.ContactTeacher-container a::before{
+background-size:18px;
+background-position:0 3px;
+}
+
+.congrat-gray-box span{
+background-size:20px;
+background-position:0 6px;
+margin-right: 3px;
+}
+
+.board-regulation-sec h3 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.board-regulation-sec h4.incorrect-txt {
+    font-size: 14px;
+}
+
+.true-false {
+    font-size: 15px;
+}
+
+.boarddirectorleft p {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.boarddirectorleft p {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.activity-box img{
+margin-bottom:15px;
+}
+
+.boarddirectorleft h3 {
+    font-size: 18px;
+}
+
+.responsible-include-list li {
+    font-size: 14px;
+    line-height: 20px;
+	}
+	
+a.lesson-quiz {
+    font-size: 13px;
+	}
+	
+.comment-area h3 {
+    font-size: 18px;
+}
+
+.comment-log-txt {
+    font-size: 14px;
+	}
+	
+#comment-form textarea {
+    height: 140px;
+	font-size:14px;
+	}
+.glossary-left h1{
+	font-size:25px;
+	line-height:28px;
+}
+.glossary-left h2{
+	font-size:22px;
+}
+.glossary-list{
+	padding:15px 0 0;
+}
+.glossary-left li h3{
+	font-size:18px;
+}
+
+.email-txt{
+	width:auto;
+	float:none;
+	margin:20px 0 0 0;
+}
+
+.cvv{
+	 width: 97% !important;
+	margin:20px 0 0 0 !important;
+}
+
+.month{
+	 margin-right: 20px !important;
+    width: 20% !important;
+}
+
+.month {
+	height:48px !important;
+}
+
+.subscription-type li .left-cont .cont-section p{
+	font-size:14px;
+	
+}
+
+.login-action-login #login h1 a{
+	height:73px !important;
+	width:300px !important;
+	background-size:100% !important;
+}
+.login-action-login #login h1{
+	margin-bottom:30px !important;
+	padding-top:15% !important;
+}
+.login-action-login #loginform input[type="text"], .login-action-login #loginform input[type="password"]{
+	height:46px !important;
+	margin:0 0 20px !important;
+}
+.login-action-login #login h1, .login-action-login #loginform{
+	width:auto !important;
+	margin:0 2% !important;
+}
+.login-action-login #loginform input[type="submit"]{
+	margin:0 auto !important;
+	padding-top:0 !important;
+	height:42px !important;
+	background-position:30px center !important;
+	font-size:20px !important;
+	width:158px !important;
+}
+.login #nav{
+	font-size:18px !important;
+	width:auto !important;
+	padding-bottom:240px !important;
+}
+#copyright, #credit{
+	float:none !important;
+	overflow:hidden;
+	text-align:center;
+}
+.login-action-login .site-footer{
+	height:auto !important;
+}
+#credit{
+	padding:6px 0 0;
+}
+#footer .col-left{
+	margin-bottom:0 !important;
+}
+#header-container{
+	margin-bottom:0;
+}
+#nav-container{
+	padding:0;
+}
+#header{
+	margin-bottom:20px;
+}
+.footer-logo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 234px;
+}
+#navigation{
+	width:200px !important;
+}
+#main-nav li#menu-item-7733 a, #main-nav li#menu-item-7870 a, #main-nav li#menu-item-26 a, #main-nav li#menu-item-7787 a{
+	border-radius:0 !important;
+}
+#navigation ul.nav li{
+	margin:0 0 5px !important;
+}
+.entry table td, .entry table th{
+	padding:10px 8px !important;
+}
+#my-courses .ui-tabs-nav li a{
+	padding:8px;
+}
+.myaccount h2{
+	margin:0;
+}
+.myaccount{
+	margin:20px 0 0;
+}
+body.full-width #content{
+	padding-left:1% !important;
+	padding-right:1% !important;
+}
+#support{
+	padding:0;
+}
+.show-nav #inner-wrapper{
+	left:0;
+}
+.csstransforms3d.csstransitions #navigation {
+    backface-visibility: hidden;
+    left: 0;
+    transform: translate3d(0px, 0px, 0px);
+}
+#navigation{
+	left:0;
+}
+
+}
+@media screen and (max-width: 700px) {
+	/*body{
+		border:1px solid blue;
+	}*/
+	
+	.month {
+		margin-right: 20px !important;
+		width: 19% !important;
+	}
+	
+	.payment-imgs{
+		 width: 40%;
+	}
+	
+}
+@media screen and (max-width: 650px) {
+	/*body{
+		border:1px solid pink;
+	}*/
+	
+	.logo {
+    width: 207px;
+	}
+	
+	.back-to-bottom {
+    text-align: center;
+	}
+	
+	a.Governance-btn {
+    display: inline-block;
+    float: none;
+    margin: 0 auto 30px;
+	}
+	
+	a.Governance-rt-btn {
+    display: inline-block;
+    float: none;
+	 margin: 0 auto;
+}
+
+.subscription-type li .left-cont{
+	float:none;
+	width:auto;
+}
+
+.subscription-type li .price-sec{
+	float:none;
+	 margin: 16px 0 0 42px;
+	
+}
+	
+	
+	
+	
+}
+@media screen and (max-width: 600px) {
+	/*body{
+		border:1px solid green;
+	}*/
+	
+	.nav li {
+    font-size: 11px;
+	}
+	
+	.nav li.dashboard {
+    margin-right: 10px;
+	}
+	
+	.nav li.dashboard a {
+    font-size: 11px;
+    padding: 0 5px;
+	}
+	
+	.nav li.myaccount {
+    width: 104px;
+	}
+	
+	.nav li.myaccount a {
+    background-position:85px center;
+	}
+	
+	.logo {
+    width: 187px;
+	}
+		
+	#support .com input[type="text"] {
+    width: 95%;
+	}
+	
+	#support .com textarea {
+    width: 95%;
+	}
+	
+	#login {
+ 
+    width: auto;
+	}
+	
+	.login-logo {
+    width: 320px;
+	}
+	
+	#login input[type="submit"] {
+    background-size: 8% auto;
+    height: 42px;
+    width: 140px;
+    background-position: 25px center;
+	 padding-left: 15px;
+	 font-size:17px;
+}
+
+.intro-mod-list ul li {
+    font-size: 13px;
+	}
+	
+	.postal{
+		float:none !important;
+	}
+	
+	.same-address{
+		 margin-left:7px;
+	}
+	
+	.cvv{
+		float:none !important;
+		width:95% !important;
+		margin-left:auto !important;
+		margin-right:auto !important;
+	}
+	
+	.month-year{
+		margin:0 7px;
+		float:none;
+	}
+	
+	.sub-title {
+    font-size: 26px;
+}
+.login-action-login #login h1{
+	padding-top:30% !important;
+}
+.field-wrap, .field-wrap:nth-child(3), .field-wrap:nth-child(5){
+	float:none;
+	width:auto;
+}
+.field-wrap input[type="text"]{
+	float:none;
+	padding:0 0 0 10px;
+	font-size:14px;
+}
+#ninja_forms_field_3_div_wrap textarea{
+	font-size:16px;
+	padding:10px 0 0 10px;
+}
+#nf_submit_1 input{
+	font-size:20px;
+	height:40px;
+	line-height:37px;
+	padding:0 30px;
+}
+}
+@media screen and (max-width: 550px) {
+	/*body{
+		border:1px solid orange;
+	}*/
+	
+	.logo {
+    width: 147px;
+	}
+	
+	.nav li.myaccount {
+    margin: 0 5px 0 0;
+	}
+	
+	.nav li.dashboard {
+    margin-right: 5px;
+	}
+	
+	.nav li.myaccount {
+    width: 98px;
+	}
+	
+	.nav li.myaccount a {
+    background-position: 79px center;
+    padding: 0 0 0 11px;
+	}
+	
+	.complete-circle {
+    background-size: 4% auto;
+	 padding-left: 28px;
+	}
+	
+	.con-logo{
+		width:80%;
+	}
+	
+	.conclusion h2.title{
+		font-size:20px;
+	}
+	
+	.conclusion h3{
+		font-size:17px;
+	}
+	
+	.conclusion p{
+		font-size:15px;
+	}
+	.login #nav{
+		padding:18px 0 180px !important;
+	}
+	
+    
+	
+}
+@media screen and (max-width: 480px) {
+/*	body{
+		border:1px solid purple;
+	}*/
+	
+	.logo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 150px;
+	}
+	
+	.navigation {
+    float: none;
+    overflow: hidden;
+	margin-top: 15px;
+	}
+	
+	.nav{
+		text-align:center;
+		}
+
+		
+	.videoSec li {
+    display: block;
+    float: none;
+    margin: 0 auto 15px;
+    width: 100%;
+	}
+	.videoSec li:last-child {
+    float: none;
+	}
+	
+	.course-title {
+    font-size: 18px;
+	}
+	
+	.course-detailLeft p {
+    font-size: 12px;
+	}
+	
+	.course-detailLeft h3.small {
+    font-size: 12px;
+	}
+	
+	.scrollBar {
+		background-size:100%;
+		}
+		
+	
+.course-detailLeft h3 {
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+
+.moduleHeading h4 {
+    font-size: 14px;
+    line-height: 34px;
+}
+
+
+.moduleHeading .complete {
+    background-position:13px 12px ; 
+    font-size: 12px;
+	line-height:32px;
+}
+
+
+.programsList li img {
+    height: 76px;
+    width: 76px;
+}
+
+.support-link {
+	margin-top:10px;
+}
+
+.top-footer {
+    text-align: center;
+}
+
+.footer-logo {
+    float: none;
+    margin: 0 auto;
+	width: 194px;
+}
+
+.support-link {
+    display: inline-block;
+    float: none;
+    text-align: center;
+}
+
+
+#support .com input[type="submit"] {
+    font-size: 17px;
+    padding: 0 34px;
+}
+
+
+#support .com input[type="text"] {
+    width: 94%;
+}
+
+#support .com textarea {
+    width: 94%;
+}
+
+.main-title {
+    font-size: 27px;
+}
+
+.support-txt {
+    font-size: 13px;
+}
+
+.total-body {
+    margin-bottom: 226px;
+}
+
+.footer {
+    height: 226px;
+    margin-top: -226px;
+}
+
+.myaccount-blockarea h2 {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.myaccount-blockarea p {
+    font-size: 12px;
+}
+
+.title {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.progress h3 {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.progress-lt h4 {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+.progress-lt h5 {
+    font-size: 12px;
+    line-height: 13px;
+}
+
+
+.progress-lt p {
+    font-size: 12px;
+}
+
+
+.continue_link {
+    font-size: 12px;
+    height: 34px;
+    line-height: 34px;
+	padding:0 30px;
+}
+
+.c100 > span {
+    font-size: 18px;
+}
+
+.c100 > span span {
+    font-size: 13px;
+}
+
+#edit-account h4 {
+    font-size: 17px;
+}
+
+#edit-account label {
+    font-size: 13px;
+    line-height: 13px;
+}
+	
+#edit-account input[type="submit"] {
+    font-size: 18px;
+    height: 42px;
+    padding: 0 35px;
+}
+
+
+.login-logo {
+    width: 270px;
+}
+
+#login input[type="text"], #login input[type="password"] {
+    font-size: 14px;
+}
+
+
+#login input[type="submit"] {
+    background-size: 9% auto;
+    font-size: 15px;
+    height: 39px;
+    width: 130px;
+}
+
+
+#login p.forgot-password {
+    font-size: 13px;
+}
+
+#support .com input[type="text"] {
+    font-size: 14px;
+    height: 45px;
+    padding: 0 0 0 7px;
+    width: 97%;
+}
+
+#support .com textarea {
+    font-size: 14px;
+    padding: 5px 0 0 7px;
+}
+
+#edit-account .com {
+    padding: 0 0 20px;
+}
+
+#edit-account .com .lt_account {
+    margin-bottom: 20px;
+}
+
+#edit-account .com .lt_account input[type="text"], #edit-account .com .rt_account input[type="text"] {
+    font-size: 12px;
+}
+
+#edit-account .com input[type="email"], #edit-account .com input[type="password"] {
+	font-size: 12px;
+	}
+	
+.login-bg {
+    background-position:center 92%;
+}
+
+.boarddirectorleft h2 {
+    font-size: 20px;
+}
+
+a.inProgress {
+    font-size: 11px;
+	}
+	
+.intro-board-list li {
+    font-size: 12px;
+	}
+	
+
+.boarddirectorright h2 {
+    font-size: 17px;
+	}
+	
+a.Governance-btn {
+    font-size: 11px;
+	}
+	
+a.Governance-rt-btn {
+font-size: 11px;
+}
+
+.back-to-box-breadcrumb li a {
+    font-size: 12px;
+}
+
+.back-to-box span {
+    font-size: 12px;
+	 float: none;
+	}
+	
+.ContactTeacher-container a {
+    font-size: 13px;
+}
+
+.boarddirectorleft p {
+    font-size: 13px;
+	}
+	
+.board-regulation-sec h3 {
+    font-size: 16px;
+	}
+	
+.board-regulation-sec h4.incorrect-txt {
+    font-size: 13px;
+}
+
+.true-false {
+    font-size: 14px;
+}
+
+.boarddirectorleft p {
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.info-box {
+    background: #f1f0f0 url("../images/info-ico.png") no-repeat scroll 12px 32px / 19px auto;
+    padding: 32px 20px 32px 40px;
+}
+
+.responsible-include-list li {
+    font-size: 13px;
+	}
+	
+.lt-img {
+    width: 100%;
+	 float: none;
+}
+
+.activity-box {
+    padding: 10px;
+	}
+
+.activity-box img {
+    margin-bottom: 15px;
+    width: 60%;
+	}
+	
+.responsible-include-list li {
+    width: 94%;
+	}
+	
+	.payment p{
+		float:none;
+		display:block;
+		margin-bottom:10px;
+	}
+
+.payment-imgs{
+	 width: 61%;
+	 margin-top:26px;
+}
+.page h2.title{
+	font-size:26px;
+	line-height:30px;
+	margin:0 0 25px;
+}
+.sensei h1{
+	font-size:24px;
+	line-height:30px;
+}
+#my-courses .ui-tabs-nav li {
+    display: block;
+    margin: 0 !important;
+}
+#my-courses .ui-tabs-nav li:first-child{
+	margin:0 !important;
+}
+#my-courses .ui-tabs-nav li a{
+	display:block;
+	border-radius:0;
+}
+.c{
+	float:none !important;
+}
+.myaccount h2{
+	font-size:26px;
+	line-height:30px;
+	margin:0 0 10px;
+}
+}
+@media screen and (max-width: 450px) {
+	/*body{
+		border:1px solid grey;
+	}*/
+	
+	.progress-lt h4 {
+    font-size: 13px;
+    margin-top: 18px;
+	}
+	
+	.cvv{
+		 width: 97% !important;
+	}
+	
+	.month-year{
+	margin-left:0;
+	margin-right:0;
+}
+	
+}
+@media screen and (max-width: 400px) {
+	/*body{
+		border:1px solid brown;
+	}*/
+	
+	
+
+#support .com input[type="text"] {
+    width: 93%;
+}
+
+#support .com textarea {
+    width: 93%;
+}
+
+.complete-circle {
+    background-size: 6% auto;
+}
+
+#edit-account h4 {
+    font-size: 16px;
+}
+
+#edit-account label {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+#edit-account .com input[type="email"], #edit-account .com input[type="password"] {
+    height: 45px;
+}
+
+#edit-account .com .lt_account input[type="text"], #edit-account .com .rt_account input[type="text"] {
+    height: 45px;
+}
+
+#edit-account input[type="submit"] {
+    font-size: 16px;
+    height: 40px;
+    padding: 0 31px;
+}
+
+.login-logo {
+    width: 230px;
+}
+
+.month{
+	height: 45px !important;
+	float:none !important;
+	 width: 89% !important;
+	 margin:0 auto 10px!important;
+}
+
+.month-year{
+	text-align:center;
+}
+
+.cvv {
+    width: 93% !important;
+}
+
+.payment-imgs{
+	margin-left:10px;
+}
+
+.same-address{
+	font-size:17px;
+}
+
+.area-radio label{
+	font-size:17px;
+}
+
+.main-title{
+	font-size:23px;
+}
+
+.sub-title {
+    font-size: 20px;
+}
+	
+}
+@media screen and (max-width: 350px) {
+	/*body{
+		border:1px solid black;
+	}*/
+	
+	.course-title {
+    font-size: 16px;
+	}
+	
+	.moduleHeading h4 {
+    font-size: 12px;
+	line-height: 24px;
+	}
+	
+	.modules ul.list li {
+    background-position: 20px 13px;
+    font-size: 12px;
+	}
+	
+	.modules ul.list li {
+		background-size:8%;
+		}
+		
+	#support .com input[type="text"] {
+    width: 91%;
+	}
+	
+	#support .com textarea {
+		
+		width: 91%;
+	}
+	.glos-search{
+		width:265px;
+	}
+	.glos-search input[type="text"]{
+		width:180px;
+	}
+	
+	.area-radio label{
+		float:none;
+		display:block;
+		margin-bottom:10px;
+	}
+	
+	.same-address .myCheckbox{
+		margin-bottom:20px;
+	}
+	.login-action-login #login h1 a{
+		width:200px !important;
+		height:64px !important;
+	}
+	
+}
+@media screen and (max-width: 300px) {
+	/*body{
+		border:1px solid red;
+	}*/
+}
+

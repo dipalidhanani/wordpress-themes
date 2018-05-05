@@ -1,0 +1,6 @@
+boxMoreText:
+	type: disabled
+boxHoverImage:
+	label: Hover Image
+	type: image-url
+	default: ""

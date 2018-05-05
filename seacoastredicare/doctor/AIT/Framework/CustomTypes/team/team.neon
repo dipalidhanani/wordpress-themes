@@ -1,0 +1,48 @@
+specialization:
+	label: Specialization
+	type: text
+
+Person Details : section
+######################
+socialIcon1Image:
+	label: 'Social Icon 1 - Image'
+	type: image-url
+socialIcon1Link:
+	label: 'Social Icon 1 - Link'
+	type: text
+socialIcon2Image:
+	label: 'Social Icon 2 - Image'
+	type: image-url
+socialIcon2Link:
+	label: 'Social Icon 2 - Link'
+	type: text
+socialIcon3Image:
+	label: 'Social Icon 3 - Image'
+	type: image-url
+socialIcon3Link:
+	label: 'Social Icon 3 - Link'
+	type: text
+socialIcon4Image:
+	label: 'Social Icon 4 - Image'
+	type: image-url
+socialIcon4Link:
+	label: 'Social Icon 4 - Link'
+	type: text
+socialIcon5Image:
+	label: 'Social Icon 5 - Image'
+	type: image-url
+socialIcon5Link:
+	label: 'Social Icon 5 - Link'
+	type: text
+socialIcon6Image:
+	label: 'Social Icon 6 - Image'
+	type: image-url
+socialIcon6Link:
+	label: 'Social Icon 6 - Link'
+	type: text
+socialIcon7Image:
+	label: 'Social Icon 7 - Image'
+	type: image-url
+socialIcon7Link:
+	label: 'Social Icon 7 - Link'
+	type: text

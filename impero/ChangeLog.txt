@@ -1,0 +1,133 @@
+------------------ VER 2.0 ---------------
+- Added: responsive featured of the theme
+- Updated: theme framework core
+- Added: slider Elastic (responsive)
+- Fixed: some bugs
+
+UPDATED                                 
+core/core.php                            
+core/default-shortcodes/media.php
+core/default-shortcodes/widgets.php
+core/default-shortcodes/content.php
+core/default-widgets/almost_all_categories.php
+core/default-widgets/recent_posts.php
+core/default-widgets/text_image.php     
+core/theme-options/include/functions.css
+core/theme-options/include/panel-import.php
+core/theme-options/include/rm_script.js 
+core/theme-options/functions-panel.php
+core/theme-options/panel.php
+core/theme-options/yiw-panel.php   
+core/functions-widgets.php        
+core/functions-fonts.php
+core/functions-template.php   
+core/functions-core.php
+core/functions-sliders.php    
+core/includes/js/jquery.tweetable.js
+core/hooks.php                       
+core/shortcodes.php
+core/mtx-safe-wp-load.php
+core/theme-options/install/install.php  
+core/sendemail.php    
+core/notifier/update-notifier.php
+core/settings.php   
+css/lessthen480.css
+css/lessthen600.css
+css/lessthen960.css
+gallery.php
+inc/post-types.php    
+inc/functions-theme.php
+inc/theme-options/custompost-options.php 
+inc/theme-options/general-options.php     
+inc/theme-options/sliders-options.php
+inc/widgets/portfolio_categories.php     
+inc/hooks.php                         
+inc/metaboxes.php 
+js/jquery.custom.js  
+header.php
+loop-gallery.php
+portfolio-3cols.php
+portfolio-filterable.php
+portfolio.php
+sidebar-portfolio.php
+sidebar.php
+slider.php             
+style.css          
+languages/default.po
+languages/it_IT.po
+languages/yiw.pot
+
+ADDED
+taxonomy.php
+css/slider-elastic.css  
+js/jquery.eislideshow.js
+slider-elastic.php     
+core/mobile-detect.php
+core/tinymce/register-shortcodes.php
+
+
+
+------------------ VER 1.4.0 ---------------
+- Added: images/bg/elegant_caption.png
+- Fixed: IE8 issue with popular posts widget (css/style_ie.css)   
+
+
+------------------ VER 1.3.5 ---------------
+- Fixed: Nivo slider asyncrounus loading (core/default-shortcodes/widgets.php)
+- Fixed: Comment form button alignment in no sidebar layouts (style.css)
+- Fixed: Portfolio and gallery filterable: hover image offset in no sidebar layouts (style.css)
+- Fixed: Problem with sidebars (inc/functions-theme.php)
+- Fixed: Custom link color didn't affect Tweet widget (inc/colors.php)
+- Fixed: Parse error: syntax error, unexpected T_STRING in portfolio.php on line 3 (portfolio.php)
+- Fixed: Contact form issue with select fields (core/sendmail.php)
+
+------------------ VER 1.3.0 ---------------
+- Fixed: <h3> tag instead of <h2> tag in gallery template (gallery.php, style.css) 
+- Fixed: Portfolio read more text (portfolio-big_image.php, portfolio-3cols.php)
+- Fixed: Different gallery for each portfolio category in Portfolio slider (portfolio-slider.php)
+- Fixed: Javascript error when Nivo slider doesn't show Navigation buttons (functions-theme.php)
+- Updated: Core updated (core/theme-options/include/functions.css, core/theme-options/panel.php, core/theme-options/functions-panel.php, core/functions-template.php, core/settings.php)
+- Added: Styled button icon enabled also in sidebar (style.css)
+- Fixed: Small bug in contact form validation fields (core/sendmail.php)
+- Added: Custom date format in portfolio (loop-portfolio.php, portfolio-big_image.php, inc/theme-options/custompost-options.php)
+- Fixed: More Projects widget: fixed warning when portfolio doesn't contain categories selected (inc/widgets/more_projects.php)
+- Fixed: Slider Elegant caption IE support (css/slider-elegant.css, images/bg/elegant_caption.png)
+- Added: Label for portfolio date field (inc/metaboxes.php)
+- Added: URL field in Text with image widget (core/default-widgets/text_image.php)
+
+
+------------------ VER 1.2.0 ---------------
+- Added: Various updates into the core
+- Fixed: Stripslashes in slider titles
+- Fixed: Contact Form new lines in email template
+- Fixed: Custom Contact Form label color
+- Fixed: Contact Form body message
+- Fixed: Contact Form Submit alignment
+- Fixed: shortcodes into [tabs]
+- Fixed: Javascript in Portfolio slider 
+- Fixed: Category names in portfolio filterable
+- Fixed: Google Analytics in Theme Options
+
+
+------------------ VER 1.1.3 ---------------
+- Fixed: Paragraphs color bug
+- Added: Custom color in logo
+- Added: Read More in Homepage Blog section
+- Fixed: Custom links color in sidebar and footer sections
+
+
+------------------ VER 1.1.2 ---------------
+- Fixed: Slogan font and color now is customizable
+- Fixed: Testimonial background fixed
+- Fixed: Custom style function
+- Fixed: Custom effect in Nivo Slider
+
+
+------------------ VER 1.1.0 ---------------
+- Fixed bug in Slider Carousel (slider-carousel.php). The title box was showed also when the title isn't setted.
+- Fixed bug in Slider Carousel (jquery.custom.js). The slider started from slide 1 instead of slide 0.
+- Completed the import / export Theme Data
+
+
+------------------ VER 1.0.0 ---------------
+Initial Release
